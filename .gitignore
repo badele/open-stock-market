@@ -1,0 +1,10 @@
+.direnv
+.coverage
+
+# Node
+/.npm-global
+/node_modules
+
+duckdb
+datas/.import
+datas/.export

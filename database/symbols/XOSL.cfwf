@@ -1,0 +1,320 @@
+                      
+                       _____                                         _      _____       _
+                      |  ___|                                       | |    |  _  |     | |
+                      | |__   _   _  _ __   ___   _ __    ___ __  __| |_   | | | | ___ | |  ___
+                      |  __| | | | || '__| / _ \ | '_ \  / _ \\ \/ /| __|  | | | |/ __|| | / _ \
+                      | |___ | |_| || |   | (_) || | | ||  __/ >  < | |_   \ \_/ /\__ \| || (_) |
+                      \____/  \__,_||_|    \___/ |_| |_| \___|/_/\_\ \__|   \___/ |___/|_| \___/
+                      
+                                                          ┈┈┈
+Euronext is a pan-European stock exchange group with headquarters in Amsterdam, Netherlands. It operates regulated
+markets in Amsterdam, Brussels, Dublin, Lisbon, Oslo, and Paris
+                                                          ┄┄┄
+
+XOSL
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+SYMBOL   name                 type     ISIN
+──────   ──────────────────   ──────   ────────────
+2020     2020 BULKERS         equity   BMG9156K1018
+ABG      ABG SUNDAL COLLIER   equity   NO0003021909
+ABL      ABL GROUP            equity   NO0010715394
+ADE      ADEVINTA             equity   NO0010844038
+AFG      AF GRUPPEN           equity   NO0003078107
+AGLX     AGILYX               equity   NO0010872468
+AIRX     AIRTHINGS            equity   NO0010895568
+AKAST    AKASTOR              equity   NO0010215684
+AKER     AKER                 equity   NO0010234552
+AKBM     AKER BIOMARINE       equity   NO0010886625
+AKRBP    AKER BP              equity   NO0010345853
+ACC      AKER CARBON CAPTUR   equity   NO0010890304
+AKH      AKER HORIZONS        equity   NO0010921232
+AKSO     AKER SOLUTIONS       equity   NO0010716582
+AKVA     AKVA GROUP           equity   NO0003097503
+AMSC     AMSC                 equity   NO0010272065
+ARCH     ARCHER               equity   BMG0451H1170
+AZT      ARCTICZYMES TECHNO   equity   NO0010014632
+AFK      ARENDALS FOSSEKOMP   equity   NO0003572802
+ARR      ARRIBATEC GROUP      equity   NO0012861667
+ASTK     ASETEK               equity   DK0060477263
+ATEA     ATEA                 equity   NO0004822503
+ASA      ATLANTIC SAPPHIRE    equity   NO0010768500
+AURG     AURSKOG SPAREBANK    equity   NO0006001601
+AUSS     AUSTEVOLL SEAFOOD    equity   NO0010073489
+AUTO     AUTOSTORE HOLDINGS   equity   BMG0670A1099
+AGAS     AVANCE GAS HOLDING   equity   BMG067231032
+ACR      AXACTOR              equity   NO0010840515
+B2I      B2 Impact            equity   NO0010633951
+BAKKA    BAKKAFROST           equity   FO0000000179
+BELCO    BELSHIPS             equity   NO0003094104
+BGBIO    BERGENBIO            equity   NO0010650013
+BEWI     BEWI                 equity   NO0010890965
+BIEN     BIEN SPAREBANK       equity   NO0012706763
+BNOR     BLUENORD             equity   NO0010379266
+BONHR    BONHEUR              equity   NO0003110603
+BOR      BORGESTAD            equity   NO0003111700
+BORR     BORR DRILLING        equity   BMG1466R1732
+BRG      BORREGAARD           equity   NO0010657505
+BOUV     BOUVET               equity   NO0010360266
+BWE      BW ENERGY LIMITED    equity   BMG0702P1086
+BWLPG    BW LPG               equity   BMG173841013
+BWO      BW OFFSHORE LTD      equity   BMG1738J1247
+BMA      BYGGMA               equity   NO0003087603
+BGBIS    BerGenBio TR         equity   NO0012921495
+CADLR    CADELER              equity   DK0061412772
+CARA     CARASENT             equity   NO0010123060
+CRNA     CIRCIO HOLDING       equity   NO0013033795
+CLOUD    CLOUDBERRY CLEAN     equity   NO0010876642
+CONTX    CONTEXTVISION        equity   SE0014731154
+CRAYN    CRAYON GROUP HOLD    equity   NO0010808892
+DNB      DNB BANK             equity   NO0010161896
+DNO      DNO                  equity   NO0003921009
+DOFG     DOF GROUP            equity   NO0012851874
+EWIND    EDDA WIND            equity   NO0010998529
+EIOF     EIDESVIK OFFSHORE    equity   NO0010263023
+EMGS     ELECTROMAGNET GEO    equity   NO0010358484
+ELK      ELKEM                equity   NO0010816093
+ELABS    ELLIPTIC LABORATOR   equity   NO0010722283
+ELMRA    ELMERA GROUP         equity   NO0010815673
+ELO      ELOPAK               equity   NO0011002586
+OAAXP    EN EXPAND ALL-S      index    NO0010865330
+OAAX     EN EXPAND ALL-S GR   index    NO0007035384
+OAAXN    EN EXPAND ALL-S NR   index    NO0010865322
+ENDUR    ENDÚR                equity   NO0012555459
+ENSU     ENSURGE MICROPOWER   equity   NO0012450008
+ENTRA    ENTRA                equity   NO0010716418
+EQNR     EQUINOR              equity   NO0010096985
+EQVA     EQVA                 equity   NO0010708605
+EPR      EUROPRIS             equity   NO0010735343
+FLNG     FLEX LNG             equity   BMG359472021
+FRO      FRONTLINE            equity   CY0200352116
+GIG      GAMING INNOVATION    equity   US36467X2062
+RISH     GC RIEBER SHIPPING   equity   NO0010262686
+GENT     GENTIAN DIAGNOSTIC   equity   NO0010748866
+GJF      GJENSIDIGE FORSIKR   equity   NO0010582521
+GOGL     GOLDEN OCEAN GROUP   equity   BMG396372051
+GOD      GOODTECH             equity   NO0004913609
+GCC      GRAM CAR CARRIERS    equity   NO0011109563
+GSF      GRIEG SEAFOOD        equity   NO0010365521
+GYL      GYLDENDAL            equity   NO0004288200
+HAFNI    HAFNIA LIMITED       equity   BMG4233B1090
+HAVI     HAVILA SHIPPING      equity   NO0010257728
+HEX      HEXAGON COMPOSITES   equity   NO0003067902
+HPUR     HEXAGON PURUS        equity   NO0010904923
+HBC      HOFSETH BIOCARE      equity   NO0010598683
+HYPRO    HYDROGENPRO          equity   NO0010892359
+HAUTO    HÖEGH AUTOLINERS     equity   NO0011082075
+HSPG     HØLAND OG SETSKOG    equity   NO0010012636
+IDEX     IDEX BIOMETRICS      equity   NO0003070609
+IOX      INTEROIL EXPL PROD   equity   NO0010284318
+ITERA    ITERA                equity   NO0010001118
+JIN      JINHUI SHIPP TRANS   equity   BMG5137R1088
+JAREN    JÆREN SPAREBANK      equity   NO0010359433
+KAHOT    KAHOOT!              equity   NO0010823131
+KID      KID                  equity   NO0010743545
+KIT      KITRON               equity   NO0003079709
+KCC      KLAVENESS COMBINAT   equity   NO0010833262
+KMCP     KMC PROPERTIES       equity   NO0010360175
+KOMPL    KOMPLETT             equity   NO0011016040
+KOA      KONGSBERG AUTOMOT    equity   NO0003033102
+KOG      KONGSBERG GRUPPEN    equity   NO0003043309
+LSG      LERØY SEAFOOD GP     equity   NO0003096208
+LINK     LINK MOBILITY GRP    equity   NO0010894231
+MGN      MAGNORA              equity   NO0010187032
+MEDI     MEDISTIM             equity   NO0010159684
+MELG     MELHUS SPAREBANK     equity   NO0006001908
+MOBA     MORROW BANK          equity   NO0010694029
+MOWI     MOWI                 equity   NO0003054108
+MPCC     MPC CONTAINER SHIP   equity   NO0010791353
+MULTI    MULTICONSULT         equity   NO0010734338
+NAPA     NAPATECH             equity   DK0060520450
+NAVA     NAVAMEDIC            equity   NO0010205966
+NKR      NEKKAR               equity   NO0003049405
+NEL      NEL                  equity   NO0010081235
+NEXT     NEXT BIOMETRICS GP   equity   NO0010629108
+NORBT    NORBIT               equity   NO0010856511
+NORCO    NORCONSULT           equity   NO0013052209
+NOD      NORDIC SEMICONDUC    equity   NO0003055501
+NHY      NORSK HYDRO          equity   NO0005052605
+NSKOG    NORSKE SKOG          equity   NO0010861115
+NODL     NORTHERN DRILLING    equity   BMG6624L1090
+NOL      NORTHERN OCEAN LTD   equity   BMG6682J1036
+NAS      NORWEGIAN AIR SHUT   equity   NO0010196140
+NRC      NRC GROUP            equity   NO0003679102
+NYKD     NYKODE THERAPEUTIC   equity   NO0010714785
+OBOSX    OBOSX OIL SERV GR    index    NO0010590086
+OBOSP    OBOSX OIL SERV PR    index    NO0010890650
+OBSFX    OBSFX SEAFOOD GR     index    NO0010760663
+OBSFN    OBSFX SEAFOOD NR     index    NO0010865181
+OBSFP    OBSFX SEAFOOD PR     index    NO0010865199
+OBSHX    OBSHX SHIPPING GR    index    NO0010771934
+OBSHN    OBSHX SHIPPING NR    index    NO0010865207
+OBSHP    OBSHX SHIPPING PR    index    NO0010865215
+OBMG     OBX BASIC MAT GR     index    NO0010890569
+OBMN     OBX BASIC MAT NR     index    NO0010890577
+OBMP     OBX BASIC MAT PR     index    NO0010890585
+OCDG     OBX CONS DISC GR     index    NO0010890478
+OCDN     OBX CONS DISC NR     index    NO0010890486
+OCDP     OBX CONS DISC PR     index    NO0010890494
+OCSG     OBX CONS STAPLE GR   index    NO0010890502
+OCSN     OBX CONS STAPLE NR   index    NO0010890510
+OCSP     OBX CONS STAPLE PR   index    NO0010890528
+OENG     OBX ENERGY GR        index    NO0010890593
+OENN     OBX ENERGY NR        index    NO0010890601
+OENP     OBX ENERGY PR        index    NO0010890619
+OFING    OBX FINANCIALS GR    index    NO0010890411
+OFINN    OBX FINANCIALS NR    index    NO0010890429
+OFINP    OBX FINANCIALS PR    index    NO0010890437
+OBX      OBX GR               index    NO0000000021
+OHCG     OBX HEALTH C GR      index    NO0010890387
+OHCN     OBX HEALTH C NR      index    NO0010890395
+OHCP     OBX HEALTH C PR      index    NO0010890403
+OING     OBX INDUSTRIALS GR   index    NO0010890536
+OINN     OBX INDUSTRIALS NR   index    NO0010890544
+OINP     OBX INDUSTRIALS PR   index    NO0010890551
+OBXP     OBX PR               index    NO0007035376
+OREG     OBX REAL ESTATE GR   index    NO0010890445
+OREN     OBX REAL ESTATE NR   index    NO0010890452
+OREP     OBX REAL ESTATE PR   index    NO0010890460
+OTECG    OBX TECHNOLOGY GR    index    NO0010890320
+OTECN    OBX TECHNOLOGY NR    index    NO0010890338
+OTECP    OBX TECHNOLOGY PR    index    NO0010890346
+OTELG    OBX TELECOM GR       index    NO0010890353
+OTELN    OBX TELECOM NR       index    NO0010890361
+OTELP    OBX TELECOM PR       index    NO0010890379
+OBXU     OBX UNCAPPED GR      index    NO0010865173
+OBXUP    OBX UNCAPPED PR      index    NO0010892151
+OUTG     OBX UTILITIES GR     index    NO0010890627
+OUTN     OBX UTILITIES NR     index    NO0010890635
+OUTP     OBX UTILITIES PR     index    NO0010890643
+OTS      OCEANTEAM            equity   NO0010317316
+ODL      ODFJELL DRILLING     equity   BMG671801022
+ODF      ODFJELL SER. A       equity   NO0003399909
+ODFB     ODFJELL SER. B       equity   NO0003399917
+OTL      ODFJELL TECHNOLOGY   equity   BMG6716L1081
+OKEA     OKEA                 equity   NO0010816895
+OET      OKEANIS ECO TANKER   equity   MHY641771016
+OLT      OLAV THON EIENDOMS   equity   NO0005638858
+ORK      ORKLA                equity   NO0003733800
+OSEAX    OSE All-SHARE GR     index    NO0007033900
+OSEAN    OSE All-SHARE NR     index    NO0010865223
+OSEAP    OSE All-SHARE PR     index    NO0010865231
+OSEBX    OSEBX GR             index    NO0007035327
+OSEBN    OSEBX NR             index    NO0010865249
+OSEBP    OSEBX PR             index    NO0010865256
+OSEBS    OSEBX STB GR         index    NO0010865355
+OSEPB    OSEBX STB PR         index    NO0010892227
+OSEBG    OSEBXG GR            index    NO0010865363
+OSEPX    OSEBXG PR            index    NO0010892193
+OSEER    OSEEXR GR            index    NO0010865371
+OSEXP    OSEEXR PR            index    NO0010892201
+OSEFX    OSEFX MUTUAL F GR    index    NO0007035335
+OSEFN    OSEFX MUTUAL F NR    index    NO0010865264
+OSEFP    OSEFX MUTUAL F PR    index    NO0010865272
+OSEMX    OSEMX MID CAP GR     index    NO0010735640
+OSEMN    OSEMX MID CAP NR     index    NO0010865280
+OSEMP    OSEMX MID CAP PR     index    NO0010865298
+OSESX    OSESX SMALL CAP GR   index    NO0007035343
+OSESN    OSESX SMALL CAP NR   index    NO0010865306
+OSESP    OSESX SMALL CAP PR   index    NO0010865314
+SSENX    OSLO ENERGY GR       index    NO0010580590
+SSENP    OSLO ENERGY PR       index    NO0010892169
+SSSFX    OSLO SEAFOOD GR      index    NO0010580624
+SSSFP    OSLO SEAFOOD PR      index    NO0010892177
+SSSHX    OSLO SHIPPING GR     index    NO0010580640
+SSSHP    OSLO SHIPPING PR     index    NO0010892185
+OTEC     OTELLO CORPORATION   equity   NO0010040611
+OTOVO    OTOVO                equity   NO0010809783
+PEN      PANORO ENERGY        equity   NO0010564701
+PARB     PARETO BANK          equity   NO0010397581
+PCIB     PCI BIOTECH HOLD     equity   NO0010405640
+PSE      PETROLIA             equity   CY0102630916
+PNOR     PETRONOR E&P         equity   NO0012942525
+PEXIP    PEXIP HOLDING        equity   NO0010840507
+PGS      PGS                  equity   NO0010199151
+PHO      PHOTOCURE            equity   NO0010000045
+POL      POLARIS MEDIA        equity   NO0010466022
+PLT      POLIGHT              equity   NO0012535832
+PRS      PROSAFE              equity   NO0010861990
+PROT     PROTECTOR FORSIKRG   equity   NO0010209331
+QFR      Q-FREE               equity   NO0003103103
+QEC      QUESTERRE ENERGY     equity   CA74836K1003
+RANA     RANA GRUBER          equity   NO0010907389
+REACH    REACH SUBSEA         equity   NO0003117202
+RECSI    REC SILICON          equity   NO0010112675
+SDSD     S.D. STANDARD ETC    equity   CY0101550917
+SAGA     SAGA PURE            equity   NO0010572589
+SALM     SALMAR               equity   NO0010310956
+SALME    SALMON EVOLUTION     equity   NO0010892094
+SACAM    SALMONES CAMANCHAC   equity   NO0012451915
+SADG     SANDNES SPAREBANK    equity   NO0006001007
+SASNO    SAS AB               equity   SE0003366871
+SATS     SATS                 equity   NO0010863285
+SCANA    SCANA                equity   NO0003053308
+SCATC    SCATEC               equity   NO0010715139
+SCHA     SCHIBSTED SER. A     equity   NO0003028904
+SCHB     SCHIBSTED SER. B     equity   NO0010736879
+SBX      SEABIRD EXPLORAT     equity   CY0101162119
+SDRL     SEADRILL             equity   BMG7997W1029
+SSG      SELF STORAGE GROUP   equity   NO0010781206
+SBO      SELVAAG BOLIG        equity   NO0010612450
+SHLF     SHELF DRILLING       equity   KYG236271055
+SIOFF    SIEM OFFSHORE        equity   KYG812291253
+SIKRI    SIKRI GROUP          equity   NO0012548819
+SKUE     SKUE SPAREBANK       equity   NO0006001809
+SMCRT    SMARTCRAFT           equity   NO0011008971
+SOGN     SOGN SPAREBANK       equity   NO0006000603
+SOFF     SOLSTAD OFFSHORE     equity   NO0003080608
+MING     SPAREBANK 1 SMN      equity   NO0006390301
+SRBNK    SPAREBANK 1 SR-BK    equity   NO0010631567
+SOON     SPAREBANK 1 SØRØ     equity   NO0006000207
+MORG     SPAREBANKEN MØRE     equity   NO0012483207
+SOR      SPAREBANKEN SØR      equity   NO0006001502
+SVEG     SPAREBANKEN VEST     equity   NO0006000900
+SPOG     SPAREBANKEN ØST      equity   NO0006222009
+SNOR     SPBK 1 NORDMØRE      equity   NO0010691660
+SPOL     SPBK 1 ØSTLANDET     equity   NO0010751910
+HELG     SPBK1 HELGELAND      equity   NO0010029804
+NONG     SPBK1 NORD-NORGE     equity   NO0006000801
+RING     SPBK1 RINGERIKE      equity   NO0006390400
+SOAG     SPBK1 ØSTFOLD AKE    equity   NO0010285562
+SNI      STOLT-NIELSEN        equity   BMG850801025
+STB      STOREBRAND           equity   NO0003053605
+STRO     STRONGPOINT          equity   NO0010098247
+SUBC     SUBSEA 7             equity   LU0075646355
+TECH     TECHSTEP             equity   NO0012916131
+TEKNA    TEKNA HOLDING        equity   NO0010951577
+TEL      TELENOR              equity   NO0010063308
+TGS      TGS                  equity   NO0003078800
+TRMED    THOR MEDICAL         equity   NO0010597883
+TIETO    TIETOEVRY            equity   FI0009000277
+TOM      TOMRA SYSTEMS        equity   NO0012470089
+TOTG     TOTENS SPAREBANK     equity   NO0006001205
+TRE      TREASURE             equity   NO0010763550
+ULTI     ULTIMOVACS           equity   NO0010851603
+UNIV     UNIVID               equity   NO0003055808
+VEI      VEIDEKKE             equity   NO0005806802
+VISTN    VISTIN PHARMA        equity   NO0010734122
+VOLUE    VOLUE                equity   NO0010894603
+VVL      VOSS VEKSEL OGLAND   equity   NO0003025009
+VOW      VOW                  equity   NO0010708068
+VAR      VÅR ENERGI           equity   NO0011202772
+WAWI     WALLENIUS WILHELMS   equity   NO0010571680
+WSTEP    WEBSTEP              equity   NO0010609662
+WWI      WILH. WILHELMSEN A   equity   NO0010571698
+WWIB     WILH. WILHELMSEN B   equity   NO0010576010
+XXL      XXL                  equity   NO0010716863
+YAR      YARA INTERNATIONAL   equity   NO0010208051
+ZAL      ZALARIS              equity   NO0010708910
+ZAP      ZAPTEC               equity   NO0010713936
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+╴╴╴
+dataset:
+  metadatas:
+    generated_with: 'cfwf@0.5.0 - https://github.com/badele/cfwf'
+    sources:
+      - 'https://www.euronext.com'
+  title: Euronext Oslo
+tables:
+  - tablename: XOSL

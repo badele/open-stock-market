@@ -1,0 +1,201 @@
+           
+            _____                                         _     ______                               _
+           |  ___|                                       | |    | ___ \                             | |
+           | |__   _   _  _ __   ___   _ __    ___ __  __| |_   | |_/ / _ __  _   _  ___  ___   ___ | | ___
+           |  __| | | | || '__| / _ \ | '_ \  / _ \\ \/ /| __|  | ___ \| '__|| | | |/ __|/ __| / _ \| |/ __|
+           | |___ | |_| || |   | (_) || | | ||  __/ >  < | |_   | |_/ /| |   | |_| |\__ \\__ \|  __/| |\__ \
+           \____/  \__,_||_|    \___/ |_| |_| \___|/_/\_\ \__|  \____/ |_|    \__,_||___/|___/ \___||_||___/
+           
+                                                          ┈┈┈
+Euronext is a pan-European stock exchange group with headquarters in Amsterdam, Netherlands. It operates regulated
+markets in Amsterdam, Brussels, Dublin, Lisbon, Oslo, and Paris
+                                                          ┄┄┄
+
+XBRU
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+SYMBOL   name                 type     ISIN
+──────   ──────────────────   ──────   ────────────
+ABI      AB INBEV             equity   BE0974293251
+ABO      ABO GROUP            equity   BE0974278104
+ACCB     ACCENTIS             equity   BE0003696102
+ACKB     ACKERMANS V.HAAREN   equity   BE0003764785
+AED      AEDIFICA             equity   BE0003851681
+AGS      AGEAS                equity   BE0974264930
+AGFB     AGFA-GEVAERT         equity   BE0003755692
+AD       AHOLD DEL            equity   NL0011794037
+APAM     APERAM               equity   LU0569974404
+ARGX     ARGENX SE            equity   NL0010832176
+ASCE     ASCENCIO             equity   BE0003856730
+ATEB     ATENOR               equity   BE0003837540
+AVTX     AVANTIUM             equity   NL0012047823
+AZE      AZELIS GROUP         equity   BE0974400328
+BANI     BANIMMO A            equity   BE0003870871
+BAR      BARCO                equity   BE0974362940
+BAS      BASILIX CERT         equity   BE0003674851
+BEAB     BEAULIEU-AV. CERT    equity   BE0003661726
+BEKB     BEKAERT              equity   BE0974258874
+BEL20    BEL 20               index    BE0389555039
+BEL2I    BEL 20 GR            index    BE0389557050
+BELLV    BEL 20 LEVERAGE      index    QS0011095864
+BEL2P    BEL 20 NR            index    BE0389558066
+BELSH    BEL 20 SHORT GR      index    QS0011095880
+BELTL    BEL 20 TR LEVERAGE   index    QS0011179247
+BEL2S    BEL 20 X2 SHORT GR   index    QS0011146923
+BE3LN    BEL 20 X3 LEV NR     index    BE0389916736
+BEL3S    BEL 20 X3 SHORT GR   index    QS0011146931
+BEL5L    BEL 20 X5 LEV NR     index    BE0389914715
+BEL5S    BEL 20 X5 SH GR      index    BE0389915720
+BELXB    BEL 20 XBEAR GR      index    QS0011100847
+BELAS    BEL ALL-SHARE        index    BE0389549941
+BELAR    BEL ALL-SHARE NR     index    BE0389550956
+BEBMP    BEL BASIC MATER      index    QS0011224910
+BEBM     BEL BASIC MATER NR   index    QS0011016696
+BECGP    BEL CONS DISCR       index    QS0011225222
+BECG     BEL CONS DISCR NR    index    QS0011016761
+BECS     BEL CONS STAPL NR    index    QS0011016829
+BECSP    BEL CONS STAPLES     index    QS0011225156
+BELCU    BEL CONTIN STCK NR   index    BE0389552978
+BELCP    BEL CONTINUOUS       index    QS0011225370
+BEOGP    BEL ENERGY           index    QS0011249248
+BEOG     BEL ENERGY NR        index    QS0011249230
+BEFIP    BEL FINANCIALS       index    QS0011225180
+BEFIN    BEL FINANCIALS NR    index    QS0011016902
+BEHCP    BEL HEALTH CARE      index    QS0011225206
+BEHC     BEL HLTH CARE NR     index    QS0011016795
+BEINP    BEL INDUSTRIALS      index    QS0011225214
+BEIN     BEL INDUSTRIALS NR   index    QS0011016738
+BELMG    BEL MID GR           index    QS0011211230
+BELM     BEL MID INDEX        index    BE0389856130
+BELMC    BEL MID NR           index    BE0389561094
+BELSG    BEL SMALL GR         index    QS0011211248
+BELS     BEL SMALL INDEX      index    BE0389857146
+BELSC    BEL SMALL NR         index    BE0389556045
+BETP     BEL TECHNOLOGY       index    QS0011225172
+BETEC    BEL TECHNOLOGY NR    index    QS0011016936
+BETEP    BEL TELECOM          index    QS0011225198
+BETEL    BEL TELECOM NR       index    QS0011016860
+BEUTP    BEL UTILITIES        index    QS0011225164
+BEUT     BEL UTILITIES NR     index    QS0011019005
+BEL3L    BEL X3 LEV           index    QS0011146915
+BELU     BELUGA               equity   BE0003723377
+BELYS    BELYSSE GROUP        equity   BE0974314461
+BCART    BIOCARTIS            equity   BE0974281132
+BIOS     BIOSENIC             equity   BE0974280126
+BTLS     BIOTALYS             equity   BE0974386188
+BPOST    BPOST                equity   BE0974268972
+BNB      BQUE NAT. BELGIQUE   equity   BE0003008019
+BREB     BREDERODE            equity   LU1068091351
+CAMB     CAMPINE              equity   BE0003825420
+CPINV    CARE PROPERTY INV.   equity   BE0974273055
+CYAD     CELYAD ONCOLOGY      equity   BE0974260896
+CENER    CENERGY              equity   BE0974303357
+CFEB     CFE                  equity   BE0003883031
+COMB     CIE BOIS SAUVAGE     equity   BE0003592038
+COFB     COFINIMMO            equity   BE0003593044
+COLR     COLRUYT              equity   BE0974256852
+OPTI     CRESCENT             equity   BE0003836534
+CLEX     CUMULEX              equity   BE0003463685
+DIE      D'IETEREN GROUP      equity   BE0974259880
+DECB     DECEUNINCK           equity   BE0003789063
+DEME     DEME GROUP           equity   BE0974413453
+DIEG     DIEGEM KENNEDYCERT   equity   BE0003698124
+DISL     DISTRI-LAND CERT     equity   BE0003605160
+ECONB    ECONOCOM GROUP       equity   BE0974313455
+EKOP     EKOPAK               equity   BE0974380124
+ELI      ELIA GROUP           equity   BE0003822393
+ENGI     ENGIE                equity   FR0010208488
+ECMPA    EUROCOMMERCIAL       equity   NL0015000K93
+EURN     EURONAV              equity   BE0003816338
+ENX      EURONEXT             equity   NL0006294274
+EVS      EVS BROADC.EQUIPM.   equity   BE0003820371
+EXM      EXMAR                equity   BE0003808251
+FAGR     FAGRON               equity   BE0003874915
+FLOB     FLORIDIENNE          equity   BE0003215143
+FLUX     FLUXYS BELGIUM D     equity   BE0974265945
+FOU      FOUNTAIN             equity   BE0003752665
+GLPG     GALAPAGOS            equity   BE0003818359
+GBLB     GBL                  equity   BE0003797140
+GIMB     GIMV                 equity   BE0003699130
+GREEN    GREENYARD            equity   BE0003765790
+HOMI     HOME INVEST BE.      equity   BE0974409410
+HYSG     HYBRID SOFTWARE GR   equity   GB00BYN5BY03
+HYL      HYLORIS              equity   BE0974363955
+IBAB     IBA                  equity   BE0003766806
+IEP      IEP INVEST           equity   BE0003748622
+MCC      IMMO MCC             equity   BE0974287196
+IMMOU    IMMO MOURY           equity   BE0003893139
+IMMO     IMMOBEL              equity   BE0003599108
+INCLU    INCLUSIO SA/NV       equity   BE0974374069
+INGA     ING GROEP N.V.       equity   NL0011821202
+INTO     INTERVEST OFF-WARE   equity   BE0003746600
+JEN      JENSEN-GROUP         equity   BE0003858751
+KBC      KBC                  equity   BE0003565737
+KBCA     KBC ANCORA           equity   BE0003867844
+KEYW     KEYWARE TECH.        equity   BE0003880979
+KIN      KINEPOLIS GROUP      equity   BE0974274061
+LOTB     LOTUS BAKERIES       equity   BE0003604155
+MDXH     MDXHEALTH            equity   BE0974461940
+MELE     MELEXIS              equity   BE0165385973
+MIKO     MIKO                 equity   BE0003731453
+MITRA    MITHRA               equity   BE0974283153
+MONT     MONTEA               equity   BE0003853703
+MOP      MOPOLI               equity   NL0000488153
+MOPF     MOPOLI FOND          equity   NL0000488161
+MOUR     MOURY CONSTRUCT      equity   BE0003602134
+NEXTA    NEXTENSA             equity   BE0003770840
+NYR      NYRSTAR              equity   BE0974294267
+NYXH     NYXOAH               equity   BE0974358906
+ONTEX    ONTEX GROUP          equity   BE0974276082
+ONWD     ONWARD MEDICAL       equity   NL0015000HT4
+OBEL     ORANGE BELGIUM       equity   BE0003735496
+OXUR     OXURION              equity   BE0003846632
+PAY      PAYTON PLANAR        equity   IL0010830391
+PROX     PROXIMUS             equity   BE0003810273
+QRF      QRF                  equity   BE0974272040
+QFG      QUESTFOR GR-PRICAF   equity   BE0003730448
+RECT     RECTICEL             equity   BE0003656676
+RET      RETAIL ESTATES       equity   BE0003720340
+ROU      ROULARTA             equity   BE0003741551
+SGO      SAINT GOBAIN         equity   FR0000125007
+SCHD     SCHEERD.V KERCHOVE   equity   BE0012378593
+SEQUA    SEQUANA MEDICAL      equity   BE0974340722
+SHUR     SHURGARD             equity   GG00BQZCBZ44
+SIP      SIPEF                equity   BE0003898187
+SMAR     SMARTPHOTO GROUP     equity   BE0974323553
+SOF      SOFINA               equity   BE0003717312
+SOLV     SOLVAC NOM(RETAIL)   equity   BE0003545531
+SOLB     SOLVAY               equity   BE0003470755
+SPA      SPADEL               equity   BE0003798155
+SYENS    SYENSQO              equity   BE0974464977
+TESB     TESSENDERLO          equity   BE0003555639
+TEXF     TEXAF                equity   BE0974263924
+TINC     TINC                 equity   BE0974282148
+TITC     TITAN CEMENT         equity   BE0974338700
+TTE      TOTALENERGIES        equity   FR0000120271
+TUB      TUBIZE-FIN           equity   BE0003823409
+UCB      UCB                  equity   BE0003739530
+UMI      UMICORE              equity   BE0974320526
+UPG      UNIFIEDPOST GROUP    equity   BE0974371032
+VAN      VAN DE VELDE         equity   BE0003839561
+VASTB    VASTNED BELGIUM      equity   BE0003754687
+VGP      VGP                  equity   BE0003878957
+VIO      VIOHALCO             equity   BE0974271034
+VRAP     VRANKEN-POMMERY      equity   FR0000062796
+WEB      WAREHOUSES ESTATES   equity   BE0003734481
+WDP      WDP                  equity   BE0974349814
+WEHB     WERELDHAVE BELGIUM   equity   BE0003724383
+WHATS    WHAT'S COOKING GP    equity   BE0003573814
+XIOR     XIOR                 equity   BE0974288202
+ZEN      ZENOBE GRAMME CERT   equity   BE0003809267
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+╴╴╴
+dataset:
+  metadatas:
+    generated_with: 'cfwf@0.5.0 - https://github.com/badele/cfwf'
+    sources:
+      - 'https://www.euronext.com'
+  title: Euronext Brussels
+tables:
+  - tablename: XBRU

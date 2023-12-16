@@ -1,0 +1,125 @@
+---
+XAMS:
+  title: Euronext Amsterdam
+  description: >-
+    Euronext is a pan-European stock exchange group with headquarters in
+    Amsterdam, Netherlands. It operates regulated markets in Amsterdam,
+    Brussels, Dublin, Lisbon, Oslo, and Paris
+  sources:
+    - https://www.euronext.com
+XBRU:
+  title: Euronext Brussels
+  description: >-
+    Euronext is a pan-European stock exchange group with headquarters in
+    Amsterdam, Netherlands. It operates regulated markets in Amsterdam,
+    Brussels, Dublin, Lisbon, Oslo, and Paris
+  sources:
+    - https://www.euronext.com
+XDUB:
+  title: Euronext Dublin
+  description: >-
+    Euronext is a pan-European stock exchange group with headquarters in
+    Amsterdam, Netherlands. It operates regulated markets in Amsterdam,
+    Brussels, Dublin, Lisbon, Oslo, and Paris
+  sources:
+    - https://www.euronext.com
+XLIS:
+  title: Euronext Lisbon
+  description: >-
+    Euronext is a pan-European stock exchange group with headquarters in
+    Amsterdam, Netherlands. It operates regulated markets in Amsterdam,
+    Brussels, Dublin, Lisbon, Oslo, and Paris
+  sources:
+    - https://www.euronext.com
+XOSL:
+  title: Euronext Oslo
+  description: >-
+    Euronext is a pan-European stock exchange group with headquarters in
+    Amsterdam, Netherlands. It operates regulated markets in Amsterdam,
+    Brussels, Dublin, Lisbon, Oslo, and Paris
+  sources:
+    - https://www.euronext.com
+XPAR:
+  title: Euronext Paris
+  description: >-
+    Euronext is a pan-European stock exchange group with headquarters in
+    Amsterdam, Netherlands. It operates regulated markets in Amsterdam,
+    Brussels, Dublin, Lisbon, Oslo, and Paris
+  sources:
+    - https://www.euronext.com
+XNYS:
+  title: New York Stock Exchange
+  description: >-
+    The New York Stock Exchange (NYSE) is the largest stock exchange in the
+    United States and the world by market capitalization. It is located in
+    New York City and is owned by Intercontinental Exchange (ICE).
+  sources:
+    - https://www.nyse.com
+    - https://www.wikipedia.com
+XNAS:
+  title: Nasdaq
+  description: >-
+    The Nasdaq Stock Market (NASDAQ) is a stock exchange based in New York
+    City. It is the second-largest stock exchange in the United States by
+    market capitalization after the New York Stock Exchange (NYSE). NASDAQ
+    is an electronic market, which means that all trading is done
+    electronically.
+  sources:
+    - https://www.nasdaq.com
+XSHG:
+  title: Shanghai Stock Exchange
+  description: >-
+    The Shanghai Stock Exchange (SSE) is a stock exchange located in
+    Shanghai, China. It is the largest stock exchange in China and the
+    fifth largest stock exchange in the world by market capitalization. The
+    SSE was founded in 1990 and is owned by the Shanghai Municipal
+    Government.
+  sources:
+    - http://english.sse.com.cn
+XSHE:
+  title: Shenzhen Stock Exchange
+  description: >-
+    The Shenzhen Stock Exchange (SZSE) is a stock exchange located in
+    Shenzhen, China. It is the second-largest stock exchange in China and
+    the sixth-largest stock exchange in the world by market capitalization.
+    The SZSE was founded in 1990 and is owned by the Shenzhen Municipal
+    Government.
+  sources:
+    - https://www.szse.cn
+    - https://www.wikipedia.com
+# XCBO:
+#   title: CBOE Global Markets
+#   description: >-
+#     Cboe Global Markets is a financial exchange company that operates various
+#     options and futures exchanges. Cboe, which stands for Chicago Board Options
+#     Exchange, is one of the largest and most well-known options exchanges in
+#     the world. The company provides a platform for trading options contracts,
+#     futures contracts, and other financial instruments.
+# XNCM:
+#   title: NASDAQ Capital Market
+#   description: >-
+#     The Nasdaq Capital Market (Nasdaq-CM) is a tier of the Nasdaq Stock Market
+#     for companies with smaller market capitalizations. It is one of three tiers
+#     in the Nasdaq Composite Index, with the other two tiers being the Nasdaq
+#     Global Market and the Nasdaq Global Select Market.
+# XSTX:
+#   title: STOXX Limited
+#   description: >-
+#     STOXX Limited is a provider of global index and analytics solutions. STOXX
+#     Limited is known for creating and managing a wide range of indices,
+#     including those related to various financial markets such as equities and
+#     fixed income. However, the specific details of STOXX indices may change
+#     over time, and new indices may be introduced.
+# XNGS:
+#   title: Nasdaq Global Select Market
+#   description: >-
+#     Nasdaq Global Select Market (NGS) is one of the tiers of the Nasdaq Stock
+#     Market. The Nasdaq Stock Market has three tiers, with the Nasdaq Global
+#     Select Market being the top tier. Here are some key points about the Nasdaq
+#     Global Select Market
+# XCME:
+#   title: Chicago Mercantile Exchange
+#   description: >-
+#     Chicago Mercantile Exchange (CME) is one of the largest and most
+#     influential financial derivatives exchanges in the world. Here are some key
+#     points about the Chicago Mercantile exchanges.

@@ -1,23 +1,3 @@
-# stock-market
-
-The opensource stock market databas
-
-## Overview
-
-This repository serves as a database for stock market exchanges, providing a
-collection of symbols retrieved from various global stock markets. The task of
-obtaining a comprehensive list of symbols for stock exchanges is known to be
-challenging, but here you'll find a compilation of symbols that have been
-managed to be retrieved, albeit with some difficulty.
-
-## Exchanges
-
-The following table provides an overview of major global stock marketplaces:
-
-The exchanges list
-
-<!-- BEGIN exchanges -->
-```text
                       
                        _____              _                                        _  _       _
                       |  ___|            | |                                      | |(_)     | |
@@ -47,9 +27,10 @@ XLIS     EURONEXT LISBON           31           38
 XDUB     IRISH STOCK EXCHANGE      10           0
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-
-```
-
-## Symbols
-
-You can see the symbols on the [database/symbols](database/symbols) page
+╴╴╴
+dataset:
+  metadatas:
+    generated_with: 'cfwf@0.5.0 - https://github.com/badele/cfwf'
+  title: Exchanges list
+tables:
+  - tablename: exchanges

@@ -1,0 +1,229 @@
+    
+ _____  _                        _                     _____  _                 _       _____              _                                
+/  ___|| |                      | |                   /  ___|| |               | |     |  ___|            | |                               
+\ `--. | |__    ___  _ __   ____| |__    ___  _ __    \ `--. | |_   ___    ___ | | __  | |__  __  __  ___ | |__    __ _  _ __    __ _   ___ 
+ `--. \| '_ \  / _ \| '_ \ |_  /| '_ \  / _ \| '_ \    `--. \| __| / _ \  / __|| |/ /  |  __| \ \/ / / __|| '_ \  / _` || '_ \  / _` | / _ \
+/\__/ /| | | ||  __/| | | | / / | | | ||  __/| | | |  /\__/ /| |_ | (_) || (__ |   <   | |___  >  < | (__ | | | || (_| || | | || (_| ||  __/
+\____/ |_| |_| \___||_| |_|/___||_| |_| \___||_| |_|  \____/  \__| \___/  \___||_|\_\  \____/ /_/\_\ \___||_| |_| \__,_||_| |_| \__, | \___|
+                                                                                                                                 __/ |      
+                                                          ┈┈┈
+The Shenzhen Stock Exchange (SZSE) is a stock exchange located in Shenzhen, China. It is the second-largest stock
+exchange in China and the sixth-largest stock exchange in the world by market capitalization. The SZSE was founded in
+1990 and is owned by the Shenzhen Municipal Government.
+                                                          ┄┄┄
+
+XSHE
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+SYMBOL   name                                       type    ISIN
+──────   ────────────────────────────────────────   ─────   ────
+399231   Agriculture Index                          index
+399282   Big Data 50                                index
+399280   Bio-medicine 50                            index
+399286   BlockChain 50                              index
+399242   Business Service Index                     index
+399413   CNI CONV BOND INDEX                        index
+399481   CNI Corporate Bond                         index
+399289   CNI-CUFE Carbon Neutral Green Bond Index   index
+399295   CNTLVV                                     index
+399019   CNTMID                                     index
+399020   CNTSMALL                                   index
+399300   CSI 300 INDEX                              index
+399905   CSI 500                                    index
+399030   Carbon Tech 30                             index
+399006   ChiNext                                    index
+399012   ChiNext 300                                index
+399667   ChiNext 300 Growth                         index
+399694   ChiNext 300 High Beta                      index
+399692   ChiNext 300 Low Volatility                 index
+399668   ChiNext 300 Value                          index
+399673   ChiNext 50                                 index
+399102   ChiNext Composite                          index
+399263   ChiNext Digital                            index
+399635   ChiNext EW                                 index
+399275   ChiNext Healthcare                         index
+399018   ChiNext Innovation                         index
+399265   ChiNext Innovator Drugs & Devices          index
+399293   ChiNext Large Cap                          index
+399296   ChiNext Momentum Growth                    index
+399266   ChiNext New Energy                         index
+399264   ChiNext Next Generation IT                 index
+399691   ChiNext Patent                             index
+399640   ChiNext Prime Market                       index
+399269   ChiNext Quality                            index
+399643   ChiNext Strategic Emerging Industries      index
+399606   ChiNext TRI                                index
+399276   ChiNext Technology                         index
+399261   ChiNextAMI                                 index
+399259   ChiNextGALI                                index
+399279   Cloud Tech 50                              index
+399249   Conglomerates Index                        index
+399235   Construction Index                         index
+399646   Consumer 50                                index
+399262   Digital Economy                            index
+399244   EP Index                                   index
+399281   Electronics 50                             index
+399636   Equipment Manufacturing                    index
+399240   Finance Index                              index
+399238   Hotel and Catering Index                   index
+399239   IT Index                                   index
+399103   LEFU Fund                                  index
+399233   Manufacturing Index                        index
+399248   Media Index                                index
+399232   Mining Index                               index
+399277   Public Health 50                           index
+399243   R&D Index                                  index
+399241   Real Estate Index                          index
+399005   SME 100                                    index
+399333   SME 100 TRI                                index
+399008   SME 300                                    index
+399602   SME 300 Growth                             index
+399664   SME 300 High Beta                          index
+399663   SME 300 Low Volatility                     index
+399604   SME 300 Value                              index
+399651   SME CSR                                    index
+399650   SME Corp Governance                        index
+399649   SME Dividend                               index
+399658   SME Performance Weighted                   index
+399623   SME Prime Market                           index
+399642   SME Strategic Emerging Industries          index
+399294   SME&ChiNext Quality                        index
+399612   SME-ChiNext 100                            index
+399660   SME-ChiNext 100 EW                         index
+399611   SME-ChiNext 100R                           index
+399624   SME-ChiNext 400                            index
+399625   SME-ChiNext 500                            index
+399626   SME-ChiNext 500 Growth                     index
+399666   SME-ChiNext 500 High Beta                  index
+399665   SME-ChiNext 500 Low Volatility             index
+399627   SME-ChiNext 500 Value                      index
+399652   SME-ChiNext HNTE                           index
+399608   SME-ChiNext Tech 100                       index
+399702   SZFI 120                                   index
+399703   SZFI 200                                   index
+399701   SZFI 60                                    index
+399645   SZSE 100 Low Volatility                    index
+399656   SZSE 100 Performance Weighted              index
+399011   SZSE 1000                                  index
+399630   SZSE 1000 Growth                           index
+399631   SZSE 1000 Value                            index
+399009   SZSE 200                                   index
+399679   SZSE 200 TRI                               index
+399007   SZSE 300                                   index
+399633   SZSE 300 EW                                index
+399346   SZSE 300 Growth                            index
+399662   SZSE 300 High Beta                         index
+399661   SZSE 300 Low Volatility                    index
+399657   SZSE 300 Performance Weighted              index
+399344   SZSE 300 TRI                               index
+399348   SZSE 300 Value                             index
+399010   SZSE 700                                   index
+399628   SZSE 700 Growth                            index
+399629   SZSE 700 Value                             index
+399674   SZSE A Health Care                         index
+399676   SZSE A Health care EW                      index
+399107   SZSE A Share Index                         index
+399675   SZSE A Software and Internet               index
+399677   SZSE A Software and Internet EW            index
+399284   SZSE AI 50                                 index
+399698   SZSE Advantage Growth                      index
+399669   SZSE Agriculture                           index
+399108   SZSE B Share Index                         index
+399341   SZSE CSR                                   index
+399335   SZSE Central SOE                           index
+399639   SZSE Commodity Producer                    index
+399003   SZSE Component B                           index
+399683   SZSE Component Consumer Discretionary      index
+399684   SZSE Component Consumer Staples Sector     index
+399680   SZSE Component Energy Sector               index
+399686   SZSE Component Financials Sector           index
+399685   SZSE Component Health Care Sector          index
+399687   SZSE Component IT Sector                   index
+399682   SZSE Component Industrials Sector          index
+399681   SZSE Component Materials Sector            index
+399688   SZSE Component Telecom Sector              index
+399689   SZSE Component Utilities Sector            index
+399106   SZSE Composite Index                       index
+399616   SZSE Consumer Discretionary                index
+399617   SZSE Consumer Staples                      index
+399307   SZSE Convertible Bond                      index
+399290   SZSE Convertible and Exchangeable Bond     index
+399302   SZSE Corporate Bond                        index
+399328   SZSE Corporate Governance                  index
+399301   SZSE Credit Bond                           index
+399654   SZSE Culture                               index
+399670   SZSE Cyclical Industry 50                  index
+399706   SZSE DOWNSTREAM                            index
+399671   SZSE Defensive Industry 50                 index
+399324   SZSE Dividend                              index
+399306   SZSE ETF                                   index
+399613   SZSE Energy                                index
+399695   SZSE Energy Conservation                   index
+399638   SZSE Environmental Protection              index
+399619   SZSE Financials                            index
+399648   SZSE GDP 100                               index
+399326   SZSE Growth 40                             index
+399618   SZSE Health Care                           index
+399647   SZSE Health Care 50                        index
+399672   SZSE High Dividend Yield 50                index
+399285   SZSE IOT 50                                index
+399615   SZSE Industrials                           index
+399653   SZSE Industry Top                          index
+399620   SZSE Information Technology                index
+399016   SZSE Innovation                            index
+399088   SZSE Innovation 100                        index
+399644   SZSE Investment Clock                      index
+399298   SZSE M-H Credit Bond                       index
+399299   SZSE M-L Credit Bond                       index
+399705   SZSE MIDSTREAM                             index
+399614   SZSE Materials                             index
+399015   SZSE Mid&Small Cap Innovation              index
+399292   SZSE NON-SOE Development                   index
+399100   SZSE New Index                             index
+399274   SZSE New Infrastructure 50 Index           index
+399337   SZSE Non-SOE                               index
+399655   SZSE Performance                           index
+399637   SZSE Real Estate                           index
+399283   SZSE Robot 50                              index
+399101   SZSE SME Composite                         index
+399634   SZSE SME EW                                index
+399017   SZSE SME Innovation                        index
+399690   SZSE SME Patent                            index
+399678   SZSE Secondary New Share                   index
+399693   SZSE Security Industry                     index
+399013   SZSE Select                                index
+399297   SZSE Sina 100                              index
+399641   SZSE Strategic Emerging Industries         index
+399610   SZSE TMT 50                                index
+399339   SZSE Technology                            index
+399621   SZSE Telecommunication services            index
+399704   SZSE UPSTREAM                              index
+399622   SZSE Utilities                             index
+399696   SZSE Venture Capital                       index
+399260   SZSEAMI                                    index
+399258   SZSEGALI                                   index
+399750   SZSEMB50                                   index
+399330   Shenzhen 100                               index
+399632   Shenzhen 100 EW                            index
+399004   Shenzhen 100 TRI                           index
+399850   Shenzhen 50                                index
+399659   Shenzhen Component EW                      index
+399001   Shenzhen Index                             index
+399002   Shenzhen TRI                               index
+399237   Transportation Index                       index
+399234   Utilities Index                            index
+399236   Wholesale Retail Index                     index
+399278   Yangtze River 100                          index
+399697   Z Non-SOE 60                               index
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+╴╴╴
+dataset:
+  metadatas:
+    generated_with: 'cfwf@0.5.0 - https://github.com/badele/cfwf'
+    sources:
+      - 'https://www.szse.cn'
+      - 'https://www.wikipedia.com'
+  title: Shenzhen Stock Exchange
+tables:
+  - tablename: XSHE

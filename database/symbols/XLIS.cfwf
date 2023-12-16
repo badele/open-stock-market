@@ -1,0 +1,98 @@
+               
+                _____                                         _      _      _       _
+               |  ___|                                       | |    | |    (_)     | |
+               | |__   _   _  _ __   ___   _ __    ___ __  __| |_   | |     _  ___ | |__    ___   _ __
+               |  __| | | | || '__| / _ \ | '_ \  / _ \\ \/ /| __|  | |    | |/ __|| '_ \  / _ \ | '_ \
+               | |___ | |_| || |   | (_) || | | ||  __/ >  < | |_   | |____| |\__ \| |_) || (_) || | | |
+               \____/  \__,_||_|    \___/ |_| |_| \___|/_/\_\ \__|  \_____/|_||___/|_.__/  \___/ |_| |_|
+               
+                                                          ┈┈┈
+Euronext is a pan-European stock exchange group with headquarters in Amsterdam, Netherlands. It operates regulated
+markets in Amsterdam, Brussels, Dublin, Lisbon, Oslo, and Paris
+                                                          ┄┄┄
+
+XLIS
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+SYMBOL   name                 type     ISIN
+──────   ──────────────────   ──────   ────────────
+ALTR     ALTRI SGPS           equity   PTALT0AE0002
+BCP      B.COM.PORTUGUES      equity   PTBCP0AM0015
+SLBEN    BENFICA              equity   PTSLB0AM0010
+CFN      COFINA,SGPS          equity   PTCFN0AE0003
+COR      CORTICEIRA AMORIM    equity   PTCOR0AE0006
+CTT      CTT CORREIOS PORT    equity   PTCTT0AM0001
+EDP      EDP                  equity   PTEDP0AM0009
+EDPR     EDP RENOVAVEIS       equity   ES0127797019
+ESON     ESTORIL SOL N        equity   PTESO0AM0000
+FLEXD    FLEXDEAL             equity   PTFXD0AM0018
+FCP      FUT.CLUBE PORTO      equity   PTFCP0AM0008
+GALP     GALP ENERGIA-NOM     equity   PTGAL0AM0009
+GLINT    GLINTT               equity   PTPAD0AM0007
+GVOLT    GREENVOLT            equity   PTGNV0AM0001
+IBS      IBERSOL,SGPS         equity   PTIBS0AM0008
+GPA      IMOB.C GRAO PARA     equity   PTGPA0AP0007
+IPR      IMPRESA,SGPS         equity   PTIPR0AM0000
+INA      INAPA-INV.P.GESTAO   equity   PTINA0AP0008
+JMT      J.MARTINS,SGPS       equity   PTJMT0AE0001
+LIG      LISGRAFICA           equity   PTLIG0AE0002
+MAR      MARTIFER             equity   PTMFR0AM0003
+MCP      MEDIA CAPITAL        equity   PTGMC0AM0003
+MRL      MERLIN PROPERTIES    equity   ES0105025003
+EGL      MOTA ENGIL           equity   PTMEN0AE0005
+NOS      NOS, SGPS            equity   PTZON0AM0006
+NBA      NOVABASE,SGPS        equity   PTNBA0AM0006
+PHR      PHAROL               equity   PTPTC0AM0009
+PSI20    PSI                  index    PTING0200002
+BVL      PSI ALL-SHARE        index    QS0011224308
+BVLGR    PSI ALL-SHARE GR     index    PTING1000005
+PTBM     PSI BASIC MATER GR   index    QS0011016514
+PTBMP    PSI BASIC MATERIAL   index    QS0011224993
+PTCGP    PSI CONS DISCR       index    QS0011225016
+PTCG     PSI CONS DISCR GR    index    QS0011016571
+PTCS     PSI CONS STAPL GR    index    QS0011016597
+PTCSP    PSI CONS STAPLES     index    QS0011225024
+PTOGP    PSI ENERGY           index    QS0011249503
+PTOG     PSI ENERGY GR        index    QS0011249495
+PTFIP    PSI FINANCIALS       index    QS0011225057
+PTFIN    PSI FINANCIALS GR    index    QS0011016662
+PSITR    PSI GR               index    PTING0210001
+PTINP    PSI INDUSTRIALS      index    QS0011225008
+PTIN     PSI INDUSTRIALS GR   index    QS0011016522
+PSILV    PSI LEVERAGE         index    QS0011095922
+PSINR    PSI NR               index    QS0011211180
+PSISH    PSI SHORT GR         index    QS0011095948
+PTTEP    PSI TECHNOLOGY       index    QS0011225065
+PTTEC    PSI TECHNOLOGY GR    index    QS0011016688
+PTTLP    PSI TELECOM          index    QS0011225032
+PTTEL    PSI TELECOM GR       index    QS0011016621
+PSITL    PSI TR LEVERAGE      index    QS0011179254
+PTUTP    PSI UTILITIES        index    QS0011225040
+PTUT     PSI UTILITIES GR     index    QS0011016647
+PSI2S    PSI X2 SHORT GR      index    QS0011146956
+PSI3L    PSI X3 LEV           index    QS0011146949
+PS3LN    PSI X3 LEV NR        index    PTINO0220004
+PSI3S    PSI X3 SHORT GR      index    QS0011146964
+PSIXB    PSI XBEAR GR         index    QS0011100862
+RAM      RAMADA               equity   PTFRV0AE0004
+RED      REDITUS,SGPS         equity   PTRED0AP0010
+RENE     REN                  equity   PTREL0AM0008
+SEM      SEMAPA               equity   PTSEM0AM0004
+SON      SONAE                equity   PTSON0AM0001
+SNC      SONAECOM,SGPS        equity   PTSNC0AM0006
+SCP      SPORTING             equity   PTSCP0AM0001
+TDSA     TEIXEIRA DUARTE      equity   PTTD10AM0000
+NVG      THE NAVIGATOR COMP   equity   PTPTI0AM0006
+SCT      TOYOTA CAETANO       equity   PTSCT0AP0018
+VAF      VAA VISTA ALEGRE     equity   PTVAA0AM0019
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+╴╴╴
+dataset:
+  metadatas:
+    generated_with: 'cfwf@0.5.0 - https://github.com/badele/cfwf'
+    sources:
+      - 'https://www.euronext.com'
+  title: Euronext Lisbon
+tables:
+  - tablename: XLIS

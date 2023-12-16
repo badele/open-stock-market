@@ -1,0 +1,428 @@
+    
+ _____  _                           _             _    _____  _                 _       _____              _                                
+/  ___|| |                         | |           (_)  /  ___|| |               | |     |  ___|            | |                               
+\ `--. | |__    __ _  _ __    __ _ | |__    __ _  _   \ `--. | |_   ___    ___ | | __  | |__  __  __  ___ | |__    __ _  _ __    __ _   ___ 
+ `--. \| '_ \  / _` || '_ \  / _` || '_ \  / _` || |   `--. \| __| / _ \  / __|| |/ /  |  __| \ \/ / / __|| '_ \  / _` || '_ \  / _` | / _ \
+/\__/ /| | | || (_| || | | || (_| || | | || (_| || |  /\__/ /| |_ | (_) || (__ |   <   | |___  >  < | (__ | | | || (_| || | | || (_| ||  __/
+\____/ |_| |_| \__,_||_| |_| \__, ||_| |_| \__,_||_|  \____/  \__| \___/  \___||_|\_\  \____/ /_/\_\ \___||_| |_| \__,_||_| |_| \__, | \___|
+                              __/ |                                                                                              __/ |      
+                                                          ┈┈┈
+The Shanghai Stock Exchange (SSE) is a stock exchange located in Shanghai, China. It is the largest stock exchange in
+China and the fifth largest stock exchange in the world by market capitalization. The SSE was founded in 1990 and is
+owned by the Shanghai Municipal Government.
+                                                          ┄┄┄
+
+XSHG
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+SYMBOL   name                                            type    ISIN
+──────   ─────────────────────────────────────────────   ─────   ────
+H11077   10-Year China Treasury Note                     index
+H50009   180 Communication Services                      index
+H50004   180 Consumer Discretionary                      index
+H50005   180 Consumer Staples                            index
+000123   180 Dynamic                                     index
+H50067   180 ERC                                         index
+950226   180 ESG Leaders                                 index
+H50001   180 Energy                                      index
+000018   180 Financial                                   index
+950215   180 Financials                                  index
+H50007   180 Financials and Real Estate                  index
+000021   180 Governance                                  index
+000028   180 Growth                                      index
+H50006   180 Health Care                                 index
+H50003   180 Industrials                                 index
+H50008   180 Information Technology                      index
+000025   180 Infrastructure                              index
+H50002   180 Materials                                   index
+000026   180 Natural Resource                            index
+000125   180 Stability                                   index
+000027   180 Transportation                              index
+H50010   180 Utilities                                   index
+000029   180 Value                                       index
+H50059   180DP                                           index
+000030   180R Growth                                     index
+000031   180R Value                                      index
+950084   2-Year China Treasury Note                      index
+000112   380 Communication                               index
+000107   380 Cons Discretionary                          index
+000108   380 Cons Staples                                index
+000141   380 Dynamic                                     index
+H50068   380 ERC                                         index
+950225   380 ESG                                         index
+950227   380 ESG Leaders                                 index
+000104   380 Energy                                      index
+000110   380 Financials                                  index
+000117   380 Growth                                      index
+000109   380 Health Care                                 index
+000106   380 Industrials                                 index
+000111   380 Information                                 index
+950107   380 Innovation                                  index
+000105   380 Materials                                   index
+950216   380 Real Estate                                 index
+000142   380 Stability                                   index
+000113   380 Utilities                                   index
+000118   380 Value                                       index
+000119   380R Growth                                     index
+000120   380R Value                                      index
+H00140   5-Year China Treasury Note (Full)               index
+950223   50 ESG                                          index
+H50060   50DP                                            index
+000002   A Share Index                                   index
+000003   B Share Index                                   index
+000005   Commercial Index                                index
+000008   Conglomerates Index                             index
+000126   Consumer 50                                     index
+000013   Corporate Bond Index                            index
+000171   Emerging Component Index                        index
+950049   G60 Component Index                             index
+950048   G60 Composite Index                             index
+000019   Governance Index                                index
+000012   Government Bond Index                           index
+H11081   HGSZ AA Plus                                    index
+H50069   HK Equities                                     index
+000121   Health Care theme                               index
+000004   Industrial Index                                index
+000155   Market Value Top 100                            index
+000017   New SSE Index                                   index
+000006   Real Estate Index                               index
+000048   Responsibility Index                            index
+000159   SH Stock Connect                                index
+H50066   SH-HK AH Premium                                index
+950230   SSE 0-1 Treasury and Policy Bank Bond           index
+950270   SSE 0-3 AAA LSOEs Bond                          index
+950251   SSE 0-3 AAA SOEs Bond                           index
+950168   SSE 0-3 AAA Sci-Tech Bond                       index
+950266   SSE 0-3 LSOEs Bond                              index
+950247   SSE 0-3 SOEs Bond                               index
+950231   SSE 0-3 Treasury and Policy Bank Bond           index
+950241   SSE 0-3 Year Central SOEs Bond                  index
+950271   SSE 0-5 AAA LSOEs Bond                          index
+950252   SSE 0-5 AAA SOEs Bond                           index
+950169   SSE 0-5 AAA Sci-Tech Bond                       index
+950267   SSE 0-5 LSOEs Bond                              index
+950248   SSE 0-5 SOEs Bond                               index
+950233   SSE 0-5 Treasury and Policy Bank Bond           index
+950242   SSE 0-5 Year Central SOEs Bond                  index
+950232   SSE 1-3 Treasury and Policy Bank Bond           index
+950047   SSE 1-5 Year Local Government                   index
+950109   SSE 10-Year Local Government                    index
+000132   SSE 100                                         index
+000133   SSE 150                                         index
+000010   SSE 180                                         index
+950081   SSE 180 Carbon Efficient                        index
+000149   SSE 180 Dividend                                index
+950224   SSE 180 ESG                                     index
+000051   SSE 180 Equal Weight                            index
+000135   SSE 180 HB                                      index
+000136   SSE 180 LB                                      index
+H50057   SSE 180 Momentum                                index
+000093   SSE 180 Sector Equal Weight                     index
+950098   SSE 180 Sector Neutral Low-vol                  index
+950092   SSE 180 Select                                  index
+H50062   SSE 180 USD Hedged                              index
+H50050   SSE 180 Vol Ctrl1                               index
+H50051   SSE 180 Vol Ctrl2                               index
+950234   SSE 3-5 Treasury and Policy Bank Bond           index
+950188   SSE 3-7 Year Local Government                   index
+950046   SSE 3-YearLocal Government                      index
+000009   SSE 380                                         index
+000150   SSE 380 Dividend                                index
+000115   SSE 380 Equal Weight                            index
+000137   SSE 380 HB                                      index
+000138   SSE 380 LB                                      index
+H50058   SSE 380 Momentum                                index
+950099   SSE 380 Sector Neutral Low-vol                  index
+H50063   SSE 380 USD Hedged                              index
+000101   SSE 5-Year Credit Bond                          index
+950045   SSE 5-YearLocal Government                      index
+000016   SSE 50                                          index
+000050   SSE 50 EWI                                      index
+950090   SSE 50 Select                                   index
+H50061   SSE 50 USD Hedged                               index
+H50048   SSE 50 Vol Ctrl1                                index
+H50049   SSE 50 Vol Ctrl2                                index
+950171   SSE AAA 0-3 SOE Sci-Tech Bond                   index
+950172   SSE AAA 0-5 SOE Sci-Tech Bond                   index
+950268   SSE AAA LSOEs Bond                              index
+950170   SSE AAA SOE Sci-Tech Bond                       index
+950249   SSE AAA SOEs Bond                               index
+950167   SSE AAA Sci-Tech Bond                           index
+000122   SSE Agriculture                                 index
+950088   SSE Asset-light                                 index
+950070   SSE Automobiles                                 index
+000134   SSE Banks                                       index
+H50011   SSE Bohai Industry Top                          index
+950179   SSE Buyback                                     index
+950113   SSE CMHG Credit Bond 3-5Y                       index
+H50014   SSE Central Region Industry Top                 index
+000042   SSE Central SOEs 50                             index
+950240   SSE Central SOEs Bond                           index
+000152   SSE Central Soes Dividend                       index
+000161   SSE China Manufacture                           index
+000066   SSE Commodity Equity                            index
+000040   SSE Communication Services                      index
+H50029   SSE Communication Services Dividend             index
+000078   SSE Communication Services EW                   index
+000035   SSE Cons Disc                                   index
+000073   SSE Cons Disc EW                                index
+000036   SSE Cons Staples                                index
+000074   SSE Cons Staples EW                             index
+H50024   SSE Cons. Disc. Dividend                        index
+H50025   SSE Cons. Staples Dividend                      index
+000103   SSE Consume                                     index
+000069   SSE Consumer 80                                 index
+950120   SSE Convertible Bond and Exchangeable Bond      index
+000061   SSE Corporate Bond 30                           index
+950257   SSE Credit Bond                                 index
+950211   SSE Credit Bond 0-1 Implied above AA            index
+950207   SSE Credit Bond 0-1 Implied above AA Plus       index
+950129   SSE Credit Bond 0-1Y                            index
+950154   SSE Credit Bond 0-1Y AA                         index
+950148   SSE Credit Bond 0-1Y AA Plus                    index
+950136   SSE Credit Bond 0-1Y Medium-High Grade          index
+950212   SSE Credit Bond 1-3 Implied above AA            index
+950208   SSE Credit Bond 1-3 Implied above AA Plus       index
+950130   SSE Credit Bond 1-3Y                            index
+950155   SSE Credit Bond 1-3Y AA                         index
+950149   SSE Credit Bond 1-3Y AA Plus                    index
+950143   SSE Credit Bond 1-3Y AAA                        index
+950137   SSE Credit Bond 1-3Y Medium-High Grade          index
+950213   SSE Credit Bond 1-5 Implied above AA            index
+950209   SSE Credit Bond 1-5 Implied above AA Plus       index
+950134   SSE Credit Bond 1-5Y                            index
+950159   SSE Credit Bond 1-5Y AA                         index
+950153   SSE Credit Bond 1-5Y AA Plus                    index
+950147   SSE Credit Bond 1-5Y AAA                        index
+950141   SSE Credit Bond 1-5Y Medium-High Grade          index
+000116   SSE Credit Bond 100                             index
+950214   SSE Credit Bond 3-5 Implied above AA            index
+950210   SSE Credit Bond 3-5 Implied above AA Plus       index
+950131   SSE Credit Bond 3-5Y                            index
+950156   SSE Credit Bond 3-5Y AA                         index
+950150   SSE Credit Bond 3-5Y AA Plus                    index
+950144   SSE Credit Bond 3-5Y AAA                        index
+950138   SSE Credit Bond 3-5Y Medium-High Grade          index
+950132   SSE Credit Bond 5-7Y                            index
+950157   SSE Credit Bond 5-7Y AA                         index
+950151   SSE Credit Bond 5-7Y AA Plus                    index
+950145   SSE Credit Bond 5-7Y AAA                        index
+950139   SSE Credit Bond 5-7Y Medium-High Grade          index
+950133   SSE Credit Bond 7-10Y                           index
+950158   SSE Credit Bond 7-10Y AA                        index
+950152   SSE Credit Bond 7-10Y AA Plus                   index
+950146   SSE Credit Bond 7-10Y AAA                       index
+950140   SSE Credit Bond 7-10Y Medium-High Grade         index
+950128   SSE Credit Bond AA                              index
+950127   SSE Credit Bond AA Plus                         index
+950126   SSE Credit Bond AAA                             index
+950206   SSE Credit Bond Implied above AA                index
+950205   SSE Credit Bond Implied above AA Plus           index
+950135   SSE Credit Bond Medium-High Grade               index
+H50018   SSE Culture                                     index
+H50054   SSE Culture & Sport Leisure                     index
+950102   SSE Cycle Bond                                  index
+000063   SSE Cyclical                                    index
+950190   SSE Delta Area Credit Bond                      index
+950191   SSE Delta Area Universal Bond                   index
+000015   SSE Dividend                                    index
+950050   SSE Dividend Allocation                         index
+H50040   SSE Dividend Low Volatility                     index
+H50020   SSE Dividend Potential                          index
+H50019   SSE Dividend Return                             index
+H50042   SSE Dividend Value                              index
+H50064   SSE Dividend Vol Ctrl1                          index
+H50065   SSE Dividend Vol Ctrl2                          index
+000096   SSE Downstream                                  index
+000158   SSE EP                                          index
+950089   SSE Electronics                                 index
+000067   SSE Emerging                                    index
+000032   SSE Energy                                      index
+H50021   SSE Energy Dividend                             index
+000070   SSE Energy EW                                   index
+000022   SSE Enterprise Bond                             index
+950119   SSE Exchangeable Bond                           index
+950110   SSE Extra Long Treasury Bond                    index
+000038   SSE Financials                                  index
+H50027   SSE Financials Dividend                         index
+000076   SSE Financials EW                               index
+000090   SSE Free Float                                  index
+950086   SSE Free Trade Zone                             index
+H50055   SSE Grand Agriculture                           index
+950192   SSE Greater Bay Area Credit Bond                index
+950193   SSE Greater Bay Area Universal Bond             index
+950117   SSE Green Bond                                  index
+950183   SSE Green Bond AAA                              index
+H50031   SSE Green Cities                                index
+950118   SSE Green Corporate Bond                        index
+950185   SSE Green Enterprise Bond                       index
+950094   SSE HIBB                                        index
+000037   SSE Health Care                                 index
+H50026   SSE Health Care Dividend                        index
+000075   SSE Health Care EW                              index
+H50044   SSE Health Industry                             index
+950100   SSE High Dividend Yield                         index
+950184   SSE High Grade Green Bond                       index
+950166   SSE High Grade Sci-Tech Bond                    index
+000131   SSE High and New Tech                           index
+000097   SSE High-End Equipment                          index
+950101   SSE IM                                          index
+H50028   SSE IT Dividend                                 index
+000001   SSE Index                                       index
+000034   SSE Industrials                                 index
+H50023   SSE Industrials Dividend                        index
+000072   SSE Industrials EW                              index
+000065   SSE Industry Top                                index
+000077   SSE Info Tech EW                                index
+000039   SSE Info technology                             index
+950072   SSE Information Security                        index
+950071   SSE Infrastructure                              index
+950106   SSE Innovation                                  index
+H50035   SSE Intelligent Transport                       index
+950073   SSE Internet                                    index
+950074   SSE Internet Finance                            index
+950085   SSE Internet of things                          index
+000162   SSE Internet plus                               index
+000102   SSE Investment                                  index
+950041   SSE Investment Grade Convertibles               index
+950237   SSE Jing-Jin-Ji Credit Bond                     index
+000059   SSE L&M&S Cap relative growth                   index
+000060   SSE L&M&S Cap relative value                    index
+950265   SSE LSOEs Bond                                  index
+000057   SSE Large&Mid&Small Cap growth                  index
+000058   SSE Large&Mid&Small Cap value                   index
+950051   SSE Liquid Convertible Bond                     index
+000055   SSE Local State-owned 50                        index
+000044   SSE MID CAP                                     index
+000046   SSE MID&SMALL CAP                               index
+H11095   SSE MT MHY CM Bond                              index
+950245   SSE Market-Making Corporate Bond                index
+950243   SSE Market-Making Treasury                      index
+000033   SSE Materials                                   index
+H50022   SSE Materials Dividend                          index
+000071   SSE Materials EW                                index
+000020   SSE Medium Composite                            index
+000043   SSE Mega-cap                                    index
+000095   SSE Midstream                                   index
+950079   SSE Mixed Ownership Reform                      index
+H50053   SSE Mobile Internet                             index
+950075   SSE Modern Agriculture                          index
+H50036   SSE National Defense                            index
+950220   SSE New Energy                                  index
+950194   SSE New Energy Vehicles                         index
+950189   SSE New Infrastructure                          index
+H50016   SSE Northeast Region Industry Top               index
+000160   SSE OBOR                                        index
+950087   SSE Ocean Economy                               index
+H50043   SSE Old-Age Industry                            index
+000054   SSE Overseas-listing                            index
+000049   SSE POEs 50                                     index
+950108   SSE POEs Corporate Bond                         index
+H50013   SSE Pan Pearl River Industry Top                index
+950238   SSE Photovoltaic                                index
+H11018   SSE Pledgeable UCI Bond                         index
+000153   SSE Poes Dividend                               index
+950202   SSE Policy Bank Bond                            index
+950203   SSE Policy Bank Bond 0-3Y                       index
+950204   SSE Policy Bank Bond 0-5Y                       index
+950095   SSE Private Placement                           index
+H50041   SSE RP                                          index
+950217   SSE Real Estate                                 index
+950219   SSE Real Estate Dividend                        index
+950218   SSE Real Estate EW                              index
+000068   SSE Resource                                    index
+000092   SSE Resource 50                                 index
+950080   SSE S&M SOE's Reform                            index
+000062   SSE SHANGHAI enterprises                        index
+000045   SSE SMALL CAP                                   index
+950246   SSE SOEs Bond                                   index
+H50052   SSE SOEs Reform                                 index
+950165   SSE Sci-Tech Bond                               index
+950105   SSE Securities                                  index
+950200   SSE Securities Company Bond 0-3 AAA             index
+950201   SSE Securities Company Bond 0-3 High Grade      index
+950198   SSE Securities Company Bond AAA                 index
+950199   SSE Securities Company Bond High Grade          index
+950082   SSE Shanghai's Development                      index
+950111   SSE Short Term AAA Central SOEs Bond            index
+950142   SSE Short Term AAA Credit Bond                  index
+950269   SSE Short Term AAA LSOEs Bond                   index
+950250   SSE Short Term AAA SOEs Bond                    index
+950112   SSE Short Term High Grade Credit Bond           index
+H50038   SSE Smart Cities                                index
+H50056   SSE Smart Home                                  index
+000151   SSE Soes Dividend                               index
+950239   SSE Solar Power                                 index
+000056   SSE State-owned 100                             index
+H50017   SSE Strategic Information                       index
+950097   SSE Supply-Side                                 index
+H50039   SSE TMT Index                                   index
+000047   SSE TOTAL MARKET                                index
+950229   SSE Treasury and Policy Bank Bond               index
+000094   SSE Upstream                                    index
+H11098   SSE Urban Construction Investment Bond          index
+H50037   SSE Urbanization                                index
+H50033   SSE Urbanization Consumption                    index
+H50032   SSE Urbanization Transport                      index
+H50034   SSE Urbanization infrastructure                 index
+000041   SSE Utilities                                   index
+H50030   SSE Utilities Dividend                          index
+000079   SSE Utilities EW                                index
+000091   SSE Wealth Mid-Small                            index
+H50015   SSE West Region Industry Top                    index
+H50012   SSE Yangtze Industry Top                        index
+950235   SSE Yangtze River Credit Bond                   index
+950083   SSE Yangtze River Delta                         index
+950122   SSE Yangtze River Delta High Grade Green Bond   index
+950236   SSE Yellow River Basin Credit Bond              index
+H11083   SSE corporate Bond 1-3Y                         index
+H11084   SSE corporate Bond 3-5Y                         index
+H11085   SSE corporate Bond 5-7Y                         index
+H11086   SSE corporate Bond 7-10Y                        index
+H11082   SSE corporate Bond AA                           index
+H11080   SSE corporate Bond AAA                          index
+000064   SSE non-Cyclical                                index
+H50047   SSE180 IN2XI                                    index
+H50046   SSE180 INI                                      index
+H50045   SSE180 L2XI                                     index
+000053   SSE180FI                                        index
+000129   SSE180VW                                        index
+000128   SSE380FI                                        index
+000130   SSE380VW                                        index
+950078   SSE50 IN2XI                                     index
+950077   SSE50 INI                                       index
+950076   SSE50 L2XI                                      index
+000052   SSE50FI                                         index
+000098   SSEF 200                                        index
+000099   SSEF 300                                        index
+000100   SSEF 500                                        index
+000698   STAR 100                                        index
+000688   STAR 50                                         index
+000683   STAR Biology and Medicine                       index
+000685   STAR Chip Index                                 index
+000697   STAR Greater Bay Area                           index
+000690   STAR Growth Index                               index
+000687   STAR High-End Equipment                         index
+000693   STAR Industrial Machinery                       index
+000692   STAR New Energy                                 index
+000689   STAR New Materials                              index
+000682   STAR Next Generation IT                         index
+000695   STAR Yangtze River Delta                        index
+950197   Securities Company Bond                         index
+000147   Select Consumption                              index
+000146   Select Manufacturing                            index
+000145   Select Resources                                index
+000114   Sustainable industry                            index
+000007   Utilities Index                                 index
+000148   leading cons. and serv.                         index
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+╴╴╴
+dataset:
+  metadatas:
+    generated_with: 'cfwf@0.5.0 - https://github.com/badele/cfwf'
+    sources:
+      - 'http://english.sse.com.cn'
+  title: Shanghai Stock Exchange
+tables:
+  - tablename: XSHG

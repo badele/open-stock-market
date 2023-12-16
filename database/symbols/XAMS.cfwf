@@ -1,0 +1,311 @@
+ 
+  _____                                         _       ___                   _                    _
+ |  ___|                                       | |     / _ \                 | |                  | |
+ | |__   _   _  _ __   ___   _ __    ___ __  __| |_   / /_\ \ _ __ ___   ___ | |_   ___  _ __   __| |  __ _  _ __ ___
+ |  __| | | | || '__| / _ \ | '_ \  / _ \\ \/ /| __|  |  _  || '_ ` _ \ / __|| __| / _ \| '__| / _` | / _` || '_ ` _ \
+ | |___ | |_| || |   | (_) || | | ||  __/ >  < | |_   | | | || | | | | |\__ \| |_ |  __/| |   | (_| || (_| || | | | | |
+ \____/  \__,_||_|    \___/ |_| |_| \___|/_/\_\ \__|  \_| |_/|_| |_| |_||___/ \__| \___||_|    \__,_| \__,_||_| |_| |_|
+ 
+                                                          ┈┈┈
+Euronext is a pan-European stock exchange group with headquarters in Amsterdam, Netherlands. It operates regulated
+markets in Amsterdam, Brussels, Dublin, Lisbon, Oslo, and Paris
+                                                          ┄┄┄
+
+XAMS
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+SYMBOL   name                 type     ISIN
+──────   ──────────────────   ──────   ────────────
+AALB     AALBERTS NV          equity   NL0000852564
+ABN      ABN AMRO BANK N.V.   equity   NL0011540547
+AXS      ACCSYS               equity   GB00BQQFX454
+ACOMO    ACOMO                equity   NL0000313286
+ADUX     ADUX                 equity   FR0012821890
+ADYEN    ADYEN                equity   NL0012969182
+AED      AEDIFICA             equity   BE0003851681
+AGN      AEGON                equity   BMG0112X1056
+AAX      AEX ALL-SHARE        index    NL0000249100
+AAXG     AEX ALL-SHARE GR     index    QS0011224977
+ATAWG    AEX ALL-TRA AW GR    index    NL0010614541
+ATAWN    AEX ALL-TRA AW NR    index    NL0010614533
+AEXAT    AEX ALL-TRADABLE     index    NL0010614491
+AETAW    AEX ALL-TRADE AW     index    NL0010614525
+AEXTG    AEX ALL-TRADE GR     index    NL0010614517
+AEXTN    AEX ALL-TRADE NR     index    NL0010614509
+NLBMG    AEX BASIC MATER GR   index    QS0011225396
+NLBM     AEX BASIC MATER.     index    QS0011016480
+NLCG     AEX CONS DISCR       index    QS0011016530
+NLCGG    AEX CONS DISCR GR    index    QS0011225404
+NLCSG    AEX CONS STAPL GR    index    QS0011225420
+NLCS     AEX CONS STAPLES     index    QS0011016563
+AEXDI    AEX DI               index    QS0011158126
+NLOG     AEX ENERGY           index    QS0011016472
+NLOGG    AEX ENERGY GR        index    QS0011224829
+AEXEG    AEX EQUAL W GR       index    QS0011211222
+AEXEN    AEX EQUAL W NR       index    QS0011211206
+AEXEW    AEX EQUAL WEIGHT     index    QS0011159744
+NLFIN    AEX FINANCIALS       index    QS0011016605
+NLFNG    AEX FINANCIALS GR    index    QS0011224522
+AEXGR    AEX GR               index    QS0011131990
+NLHC     AEX HEALTH CARE      index    QS0011016555
+NLHCG    AEX HLTH CARE GR     index    QS0011224589
+NLIN     AEX INDUSTRIALS      index    QS0011016506
+NLING    AEX INDUSTRIALS GR   index    QS0011224662
+AEXLV    AEX LEVERAGE         index    QS0011095898
+AEXNL    AEX LEVERAGE NR      index    QS0011216205
+AEXNR    AEX NR               index    QS0011211156
+AEXSH    AEX SHORT GR         index    QS0011095914
+NLTEC    AEX TECHNOLOGY       index    QS0011016613
+NLTCG    AEX TECHNOLOGY GR    index    QS0011224936
+NLTLG    AEX TELECOM GR       index    QS0011224944
+NLTEL    AEX TELECOM.         index    QS0011016589
+AEXTL    AEX TR LEVERAGE      index    QS0011179239
+AE10S    AEX X10 SHORT GR     index    NL0011515390
+A12LE    AEX X12 LEV NR       index    NL0011936141
+AE12S    AEX X12 SHORT GR     index    NL0011515408
+AE15S    AEX X15 SHORT GR     index    NL0011515416
+AEX2S    AEX X2 SHORT GR      index    QS0011146899
+AEX3L    AEX X3 LEVERAGE NR   index    QS0011230115
+AEX3S    AEX X3 SHORT GR      index    QS0011230198
+AEX4L    AEX X4 LEVERAGE NR   index    QS0011230156
+AEX4S    AEX X4 SHORT GR      index    QS0011230206
+AEX5L    AEX X5 LEVERAGE NR   index    QS0011230164
+AEX5S    AEX X5 SHORT GR      index    QS0011230214
+AEX6L    AEX X6 LEVERAGE NR   index    QS0011230172
+AEX6S    AEX X6 SHORT GR      index    QS0011230222
+AEX7L    AEX X7 LEVERAGE NR   index    QS0011230180
+AEXXB    AEX XBEAR GR         index    QS0011100854
+AEX      AEX-INDEX            index    NL0000000107
+AD       AHOLD DEL            equity   NL0011794037
+AF       AIR FRANCE -KLM      equity   FR001400J770
+AJAX     AJAX                 equity   NL0000018034
+AKZA     AKZO NOBEL           equity   NL0013267909
+ALFEN    ALFEN                equity   NL0012817175
+ALLFG    ALLFUNDS GROUP       equity   GB00BNTJ3546
+AMUND    ALMUNDA PRO NV       equity   NL0010696704
+ALX      ALUMEXX N.V.         equity   NL0012194724
+AMG      AMG                  equity   NL0000888691
+AMXGR    AMX GR               index    QS0011204763
+AMXNR    AMX NR               index    QS0011211164
+AMX      AMX-INDEX            index    NL0000249274
+APAM     APERAM               equity   LU0569974404
+ARCAD    ARCADIS              equity   NL0006237562
+MT       ARCELORMITTAL SA     equity   LU1598757687
+ASCXG    ASCX GR              index    QS0011204995
+ASCXN    ASCX NR              index    QS0011211172
+ASCX     ASCX-INDEX           index    NL0000249142
+ASM      ASM INTERNATIONAL    equity   NL0000334118
+ASML     ASML HOLDING         equity   NL0010273215
+ASRNL    ASR NEDERLAND        equity   NL0011872643
+AVTX     AVANTIUM             equity   NL0012047823
+AZRN     AZERION              equity   NL00150006Z9
+AZRNW    AZERION WARRANTS     equity   NL00150007A0
+BSGR     B&S Group            equity   LU1789205884
+BAMNB    BAM GROEP KON        equity   NL0000337319
+BFIT     BASIC-FIT            equity   NL0011872650
+BESI     BE SEMICONDUCTOR     equity   NL0012866412
+BAI      BENEVOLENTAI         equity   LU2355630455
+BAIW     BENEVOLENTAI W       equity   LU2355630968
+BBED     BETER BED            equity   NL0000339703
+BEVER    BEVER HOLDING        equity   NL0000285278
+BACE     BM3EAC               equity   KYG137071075
+BGHL     BOUSSARD GAVAUDAN    equity   GG00B1FQG453
+BGHS     BOUSSARD GHL GBP     equity   GG00B39VMM07
+BRILL    BRILL KON            equity   NL0000442523
+BRNL     BRUNEL INTERNAT      equity   NL0010776944
+CABKA    CABKA                equity   NL00150000S7
+DSCW2    CABKA EUR 12W        equity   NL00150000U3
+DSCW3    CABKA EUR 13W        equity   NL00150000V1
+CMCOM    CM.COM               equity   NL0012747059
+CRBN     CORBION              equity   NL0010583399
+CTAC     CTAC                 equity   NL0000345577
+CTPNV    CTP                  equity   NL00150006R6
+CCEP     Coca-ColaEuropacif   equity   GB00BDCPN049
+DGB      DGB GROUP N.V.       equity   NL0009169515
+DSFIR    DSM FIRMENICH AG     equity   CH1216478797
+EAS2P    EASE2PAY NV          equity   NL0000345627
+EBUS     EBUSCO HOLDING       equity   NL0015000CZ2
+EHCS     EHC ORD SHARES       equity   NL0015000K10
+BNEW     EN BENE 40 EW        index    NL0011376116
+BNEWE    EN BENE 40 EW ER     index    NL0011376140
+BNEWG    EN BENE 40 EW GR     index    NL0011376132
+BNEWN    EN BENE 40 EW NR     index    NL0011376124
+BNEWV    EN BENE 40 EW VT     index    NL0012081418
+EBLRD    EN BENEL LR D 4.5%   index    NL0012294268
+EBLRG    EN BENEL LR GR       index    NL0012294250
+EBLRN    EN BENEL LR NR       index    NL0012294243
+EBLRE    EN BENELUX LR        index    NL0012294235
+EC1ED    EN CE EW DEC 5% GR   index    NL0012254650
+COREU    EN CE EW DEC 5% NR   index    NL0012375356
+ECO50    EN CL OB 50 EW D5%   index    NL0012328843
+ECOEG    EN CL OB 50 EW GR    index    NL0012328835
+ECOEN    EN CL OB 50 EW NR    index    NL0012328827
+ECOEW    EN CL OBJ 50 EW      index    NL0012328819
+ENCEG    EN CLIMATE EUROP G   index    NL0011923040
+ENCEN    EN CLIMATE EUROP N   index    NL0011923032
+ENCLE    EN CLIMATE EUROPE    index    NL0011923024
+COP5E    EN COP 50 EW ER      index    NL0011923081
+ECOPG    EN COP 50 EW GR      index    NL0011923073
+ECOPN    EN COP 50 EW NR      index    NL0011923065
+EC1EW    EN CORE E100 EW      index    NL0012254635
+EC1EG    EN CORE E100 EW GR   index    NL0012254643
+COREN    EN CORE E100 EW NR   index    NL0012375349
+EZ40     EN EUROZ 40 EW D5%   index    NL0012731905
+EZ40G    EN EUROZ 40 EW GR    index    NL0012731897
+EZ40N    EN EUROZ 40 EW NR    index    NL0012731889
+EZ40P    EN EUROZONE 40 EW    index    NL0012731871
+EFGED    EN FGL 50 EW D 5%    index    NL0012365068
+EFGEG    EN FGL 50 EW GR      index    NL0012365050
+EFGEN    EN FGL 50 EW NR      index    NL0012365043
+EFMEP    EN FM EU EW          index    NL0012730451
+EFMED    EN FM EU EW D5%      index    NL0012730485
+EFMEG    EN FM EU EW GR       index    NL0012730477
+EFMEN    EN FM EU EW NR       index    NL0012730469
+EFGG     EN FR GR L 50 GR     index    NL0012658785
+EFGN     EN FR GR L 50 NR     index    NL0012658777
+EFGEW    EN FRAGER L 50 EW    index    NL0012365035
+EFGP     EN FRAGER LEAD 50    index    NL0012658769
+GB10D    EN RM GL BAL RC10D   index    NL0012747026
+GB12D    EN RM GL BAL RC12D   index    NL0012747042
+ERGBD    EN RM GLB BAL DECR   index    NL0012645253
+GB10C    EN RM GLB BAL RC10   index    NL0012747018
+GB12C    EN RM GLB BAL RC12   index    NL0012747034
+ERGCD    EN RM GLBCONV DECR   index    NL0012645220
+ERGBN    EN RM GLOB BAL NR    index    NL0012645246
+ERGBP    EN RM GLOB BALANCE   index    NL0012645238
+ERGCP    EN RM GLOB CONV      index    NL0012645204
+ERGCN    EN RM GLOB CONV NR   index    NL0012645212
+FGINP    EN T30 FG IND EW     index    NL0012730634
+FGING    EN T30 FG INDEW GR   index    NL0012730659
+FGINN    EN T30 FG INDEW NR   index    NL0012730642
+FGIND    EN T30 FGINDEW D5%   index    NL0012730667
+ENVB     EN VIGEO BNL 20      index    QS0011256235
+ENVBG    EN VIGEO BNL 20 GR   index    QS0011256250
+ENVBN    EN VIGEO BNL 20 NR   index    QS0011256243
+ENVEU    EN VIGEO EU 120      index    QS0011250873
+ENVEG    EN VIGEO EU 120 GR   index    QS0011250899
+ENVEN    EN VIGEO EU 120 NR   index    QS0011250881
+ENVEO    EN VIGEO EUR 120     index    QS0011256201
+ENVOG    EN VIGEO EUR120 GR   index    QS0011256227
+ENVON    EN VIGEO EUR120 NR   index    QS0011256219
+ENVF     EN VIGEO FR 20       index    QS0011250907
+ENVFG    EN VIGEO FR 20 GR    index    QS0011250923
+ENVFN    EN VIGEO FR 20 NR    index    QS0011250915
+ENVUK    EN VIGEO UK 20       index    QS0011250931
+ENVUG    EN VIGEO UK 20 GR    index    QS0011250956
+ENVUN    EN VIGEO UK 20 NR    index    QS0011250949
+ENVU     EN VIGEO US 50       index    QS0011256169
+ENVG     EN VIGEO US 50 GR    index    QS0011256193
+ENVN     EN VIGEO US 50 NR    index    QS0011256185
+ENVWG    EN VIGEO W 120 GR    index    QS0011250865
+ENVWN    EN VIGEO W 120 NR    index    QS0011250857
+ENVW     EN VIGEO WORLD 120   index    QS0011250840
+ENTPA    ENTP ORD SHARES      equity   NL0015000F82
+ENTPW    ENTP WARRANTS        equity   NL0015000FD2
+ENVI     ENVIPCO              equity   NL0015000GX8
+EPIC     EPIC Ord Shares      equity   KYG3166N1060
+EPICW    EPIC WARRANTS        equity   KYG3166N1144
+ECT      EUROCASTLE INVEST.   equity   GB00B94QM994
+ECMPA    EUROCOMMERCIAL       equity   NL0015000K93
+ENX      EURONEXT             equity   NL0006294274
+ECOP     EURONEXT COP 50 EW   index    NL0011923057
+EXO      EXOR NV              equity   NL0012059018
+FAGR     FAGRON               equity   BE0003874915
+FAST     FASTNED              equity   NL0013654809
+FER      FERROVIAL            equity   NL0015001FS8
+FLE      FL ENTERTAINMENT     equity   NL0015000X07
+FLEW     FLE WARRANTS         equity   NL0015000H56
+FLOW     FLOW TRADERS         equity   BMG3602E1084
+FFARM    FORFARMERS           equity   NL0011832811
+E100     FTSE EURO TOP 100    index    NL0000245710
+EFC1     FTSEUROFIRST 100     index    NL0000255446
+EF80     FTSEUROFIRST 80      index    NL0000255438
+FUR      FUGRO                equity   NL00150003E1
+GLPG     GALAPAGOS            equity   BE0003818359
+GOJXN    GEOJUNXION           equity   NL0000430106
+CABLE    GIG                  equity   GG00BMB5XZ39
+HAL      HAL TRUST            equity   BMG455841020
+HEIJM    HEIJMANS KON         equity   NL0009269109
+HEIA     HEINEKEN             equity   NL0000009165
+HEIO     HEINEKEN HOLDING     equity   NL0000008977
+HOLCO    HOLLAND COLOURS      equity   NL0000440311
+HYDRA    HYDRATEC             equity   NL0009391242
+IEX      IEX GROUP NV         equity   NL0010556726
+IMCD     IMCD                 equity   NL0010801007
+INGA     ING GROEP N.V.       equity   NL0011821202
+INPST    INPOST               equity   LU2290522684
+JDEP     JDE PEET'S           equity   NL0014332678
+TKWY     JUST EAT TAKEAWAY    equity   NL0012015705
+KENDR    KENDRION             equity   NL0000852531
+KPN      KPN KON              equity   NL0000009082
+LVIDE    LAVIDE HOLDING       equity   NL0010545679
+LC100    LC 100 EUROPE        index    QS0011131735
+LC1GR    LC 100 EUROPE GR     index    QS0011131750
+LC1NR    LC 100 EUROPE NR     index    QS0011131743
+BOLS     LUCASBOLS            equity   NL0010998878
+MAREL    MAREL                equity   IS0000000388
+NEDSE    MKB Nedsense         equity   NL0009312842
+MORE     MOREFIELD GROUP      equity   CWN814651014
+MTRK     MOTORK               equity   GB00BMXH3352
+NAI      NAI ORD SHARES       equity   NL0015000CG2
+NAIW     NAI WARRANTS         equity   NL0015000CH0
+NEDAP    NEDAP                equity   NL0000371243
+NRP      NEPI ROCKCASTLE      equity   NL0015000RT3
+NSE      NEW SOURCES ENERGY   equity   NL0009822014
+NN       NN GROUP             equity   NL0010773842
+NSI      NSI N.V.             equity   NL0012365084
+NXFIL    NX FILTRATION        equity   NL0015000D50
+OCI      OCI                  equity   NL0010558797
+ONWD     ONWARD MEDICAL       equity   NL0015000HT4
+PBH      PB HOLDING           equity   NL0000336303
+PSH      PERSHING             equity   GG00BPFJTF46
+PHARM    PHARMING GROUP       equity   NL0010391025
+PHIA     PHILIPS KON          equity   NL0000009538
+PORF     PORCELEYNE FLES      equity   NL0000378669
+PNL      POSTNL               equity   NL0009739416
+PRX      PROSUS               equity   NL0013654783
+QEV      QEV                  equity   NL0015000NM7
+QEVW     QEV WARRANTS         equity   NL0015000NK1
+RAND     RANDSTAD NV          equity   NL0000379121
+REINA    REINET INVESTMENTS   equity   LU0383812293
+REN      RELX                 equity   GB00B2B0DG97
+RWI      RENEWI               equity   GB00BNR4T868
+RET      RETAIL ESTATES       equity   BE0003720340
+ROOD     ROODMICROTEC         equity   NL0000440477
+SGO      SAINT GOBAIN         equity   FR0000125007
+SBMO     SBM OFFSHORE         equity   NL0000360618
+SHELL    SHELL PLC            equity   GB00BP6MXD84
+SIFG     SIF HOLDING          equity   NL0011660485
+LIGHT    SIGNIFY NV           equity   NL0011821392
+SLIGR    SLIGRO FOOD GROUP    equity   NL0000817179
+TFG      TETRAGON FIN GRP     equity   GG00B1RMC548
+TBIRD    THUNDERBIRD          equity   VGG885761061
+TITAN    TITAN                equity   NL0010389508
+TWEKA    TKH GROUP            equity   NL0000852523
+TOM2     TOMTOM               equity   NL0013332471
+UMG      UMG                  equity   NL0015000IY2
+UNA      UNILEVER             equity   GB00B10RZP78
+VLK      V LANSCHOT KEMPEN    equity   NL0000302636
+VALUE    VALUE8               equity   NL0010661864
+PREVA    VALUE8 CUM PREF      equity   NL0015118803
+VAM      VAM INVEST SHARES    equity   NL0015000G40
+VAMW     VAM INVEST WARRANT   equity   NL0015000G32
+VASTN    VASTNED              equity   NL0000288918
+VEON     VEON                 equity   BMG9349W1038
+VVY      VIVORYON             equity   NL00150002Q7
+VTA      VOLTA FINANCE        equity   GG00B1GHHH78
+VPK      VOPAK                equity   NL0009432491
+WDP      WDP                  equity   BE0974349814
+WHA      WERELDHAVE           equity   NL0000289213
+WKL      WOLTERS KLUWER       equity   NL0000395903
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+╴╴╴
+dataset:
+  metadatas:
+    generated_with: 'cfwf@0.5.0 - https://github.com/badele/cfwf'
+    sources:
+      - 'https://www.euronext.com'
+  title: Euronext Amsterdam
+tables:
+  - tablename: XAMS

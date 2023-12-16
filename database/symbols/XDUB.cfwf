@@ -1,0 +1,39 @@
+                
+                 _____                                         _     ______         _      _  _
+                |  ___|                                       | |    |  _  \       | |    | |(_)
+                | |__   _   _  _ __   ___   _ __    ___ __  __| |_   | | | | _   _ | |__  | | _  _ __
+                |  __| | | | || '__| / _ \ | '_ \  / _ \\ \/ /| __|  | | | || | | || '_ \ | || || '_ \
+                | |___ | |_| || |   | (_) || | | ||  __/ >  < | |_   | |/ / | |_| || |_) || || || | | |
+                \____/  \__,_||_|    \___/ |_| |_| \___|/_/\_\ \__|  |___/   \__,_||_.__/ |_||_||_| |_|
+                
+                                                          ┈┈┈
+Euronext is a pan-European stock exchange group with headquarters in Amsterdam, Netherlands. It operates regulated
+markets in Amsterdam, Brussels, Dublin, Lisbon, Oslo, and Paris
+                                                          ┄┄┄
+
+XDUB
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+SYMBOL   name                type    ISIN
+──────   ─────────────────   ─────   ────────────
+ISE20    ISEQ 20             index   IE00B0500264
+ISECA    ISEQ 20 Capped      index   IE00B2QF4Z54
+ISECG    ISEQ 20 Capped GR   index   IE00B2QF5075
+ISE2G    ISEQ 20 GR          index   IE00B0500488
+ISEQ     ISEQ All Share      index   IE0001477250
+ISEQG    ISEQ All Share GR   index   IE0000506851
+ISEFI    ISEQ Financial      index   IE0000516009
+ISEFG    ISEQ Financial GR   index   IE0000511505
+ISESM    ISEQ Small          index   IE0000506299
+ISESG    ISEQ Small GR       index   IE0000506745
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+╴╴╴
+dataset:
+  metadatas:
+    generated_with: 'cfwf@0.5.0 - https://github.com/badele/cfwf'
+    sources:
+      - 'https://www.euronext.com'
+  title: Euronext Dublin
+tables:
+  - tablename: XDUB

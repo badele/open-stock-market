@@ -1,0 +1,518 @@
+                   
+                    _____                                         _     ______               _
+                   |  ___|                                       | |    | ___ \             (_)
+                   | |__   _   _  _ __   ___   _ __    ___ __  __| |_   | |_/ /  __ _  _ __  _  ___
+                   |  __| | | | || '__| / _ \ | '_ \  / _ \\ \/ /| __|  |  __/  / _` || '__|| |/ __|
+                   | |___ | |_| || |   | (_) || | | ||  __/ >  < | |_   | |    | (_| || |   | |\__ \
+                   \____/  \__,_||_|    \___/ |_| |_| \___|/_/\_\ \__|  \_|     \__,_||_|   |_||___/
+                   
+                                                          ┈┈┈
+Euronext is a pan-European stock exchange group with headquarters in Amsterdam, Netherlands. It operates regulated
+markets in Amsterdam, Brussels, Dublin, Lisbon, Oslo, and Paris
+                                                          ┄┄┄
+
+XPAR
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+SYMBOL   name                 type     ISIN
+──────   ──────────────────   ──────   ────────────
+AB       AB SCIENCE           equity   FR0010557264
+ABCA     ABC ARBITRAGE        equity   FR0004040608
+ABEO     ABEO                 equity   FR0013185857
+ABNX     ABIONYX PHARMA       equity   FR0012616852
+ABVX     ABIVAX               equity   FR0012333284
+ABLD     ABL Diagnostics      equity   FR001400AHX6
+ABO      ABO GROUP            equity   BE0974278104
+ACAN     ACANTHE DEV.         equity   FR0000064602
+AC       ACCOR                equity   FR0000120404
+EOS      ACTEOS               equity   FR0000076861
+ALDV     ADC SIIC             equity   BE0974269012
+ADOC     ADOCIA               equity   FR0011184241
+ADP      ADP                  equity   FR0010340141
+ADUX     ADUX                 equity   FR0012821890
+AELIS    AELIS FARMA          equity   FR0014007ZB4
+AKOM     AERKOMM INC          equity   US00774B2088
+AEX7S    AEX X7 Short GR      index    FR0013362985
+AFME     AFFLUENT MEDICAL     equity   FR0013333077
+AF       AIR FRANCE -KLM      equity   FR001400J770
+AI       AIR LIQUIDE          equity   FR0000120073
+AIR      AIRBUS               equity   NL0000235190
+AKW      AKWEL                equity   FR0000053027
+AAA      ALAN ALLMAN          equity   FR0000062465
+ALD      ALD                  equity   FR0013258662
+CDA      ALPES (COMPAGNIE)    equity   FR0000053324
+ALO      ALSTOM               equity   FR0010220475
+LTA      ALTAMIR              equity   FR0000053837
+ALTA     ALTAREA              equity   FR0000033219
+AREIT    ALTAREIT             equity   FR0000039216
+ATE      ALTEN                equity   FR0000071946
+ALTUR    ALTUR INVEST.        equity   FR0010395681
+AMPLI    AMPLITUDE SURGICAL   equity   FR0012789667
+AMUN     AMUNDI               equity   FR0004125920
+ANTIN    ANTIN INFRA PARTN    equity   FR0014005AL0
+APAM     APERAM               equity   LU0569974404
+ARAMI    ARAMIS GROUP         equity   FR0014003U94
+MT       ARCELORMITTAL SA     equity   LU1598757687
+ARG      ARGAN                equity   FR0010481960
+AKE      ARKEMA               equity   FR0010313833
+ARTE     ARTEA                equity   FR0012185536
+PRC      ARTMARKET COM        equity   FR0000074783
+ARTO     ARTOIS NOM.          equity   FR0000076952
+ARVEN    ARVERNE GROUP        equity   FR001400JWR8
+ARVBS    ARVERNE WARRANT      equity   FR0014003AC4
+ASY      ASSYSTEM             equity   FR0000074148
+ATEME    ATEME                equity   FR0011992700
+ATLD     ATLAND               equity   FR0013455482
+ATO      ATOS                 equity   FR0000051732
+AUB      AUBAY                equity   FR0000063737
+AUGR     AUGROS COSMETICS     equity   FR0000061780
+AURE     AUREA                equity   FR0000039232
+AVT      AVENIR TELECOM       equity   FR001400CFI7
+CS       AXA                  equity   FR0000120628
+AXW      AXWAY SOFTWARE       equity   FR0011040500
+BAIN     BAINS MER MONACO     equity   MC0000031187
+BALYO    BALYO                equity   FR0013258399
+BUI      BARBARA BUI          equity   FR0000062788
+BASS     BASSAC               equity   FR0004023208
+BLC      BASTIDE LE CONFORT   equity   FR0000035370
+BLV      BELIEVE              equity   FR0014003FE9
+BEN      BENETEAU             equity   FR0000035164
+BB       BIC                  equity   FR0000120966
+BIG      BIGBEN INTERACTIVE   equity   FR0000074072
+BIM      BIOMERIEUX           equity   FR0013280286
+BIOS     BIOSENIC             equity   BE0974280126
+BLEE     BLEECKER             equity   FR0000062150
+BNP      BNP PARIBAS ACT.A    equity   FR0000131104
+BOI      BOIRON               equity   FR0000061129
+BOL      BOLLORE              equity   FR0000039299
+BON      BONDUELLE            equity   FR0000063935
+BSD      BOURSE DIRECT        equity   FR0000074254
+EN       BOUYGUES             equity   FR0000120503
+BVI      BUREAU VERITAS       equity   FR0006174348
+BUR      BURELLE              equity   FR0000061137
+CAT31    CA TOULOUSE 31 CCI   equity   FR0000045544
+PX1      CAC 40               index    FR0003500008
+C4CD     CAC 40 CUMULAT DIV   index    FR0013252392
+CACDI    CAC 40 DI            index    QS0011158118
+CACEG    CAC 40 EQUAL W GR    index    QS0011211214
+CACEN    CAC 40 EQUAL W NR    index    QS0011211198
+CACEW    CAC 40 EQUAL WEIGH   index    QS0011159777
+CESGP    CAC 40 ESG           index    FR0014002B31
+CESGG    CAC 40 ESG GR        index    FR0014002B49
+CESGN    CAC 40 ESG NR        index    FR0014002B56
+C4EWD    CAC 40 EW DECR 5%    index    FR0013236254
+CAGOD    CAC 40 GOV DECR 5%   index    FR0013254323
+CAGOG    CAC 40 GOVERNAN GR   index    FR0013232204
+CAGON    CAC 40 GOVERNAN NR   index    FR0013232196
+CAGOV    CAC 40 GOVERNANCE    index    FR0013232188
+PX1GR    CAC 40 GR            index    QS0011131834
+CACGL    CAC 40 LEVERAGE GR   index    QS0011216213
+PX1NR    CAC 40 NR            index    QS0011131826
+CACSH    CAC 40 SHORT GR      index    QS0011095831
+C4SD     CAC 40 SYNTHET DIV   index    FR0013252418
+CA10L    CAC 40 X10 LEV NR    index    FR0013362993
+CA10S    CAC 40 X10 Short G   index    FR0013361573
+C12LE    CAC 40 X12 LEV NR    index    FR0013186939
+CA12S    CAC 40 X12 SH GR     index    FR0013361649
+CAC2S    CAC 40 X2 SHORT GR   index    QS0011146865
+CAC3L    CAC 40 X3 LEV        index    FR0013362662
+CAC3S    CAC 40 X3 SHORT GR   index    FR0013362688
+CAC4L    CAC 40 X4 LEV NR     index    FR0013362811
+CAC4S    CAC 40 X4 SHORT GR   index    FR0013362837
+CAC5L    CAC 40 X5 LEV NR     index    FR0013361359
+CAC5S    CAC 40 X5 SHORT GR   index    FR0013360666
+CAC6L    CAC 40 X6 LEV NR     index    FR0013362852
+CAC6S    CAC 40 X6 SHORT GR   index    FR0013362878
+CAC7L    CAC 40 X7 LEV NR     index    FR0013362860
+CAC7S    CAC 40 X7 SHORT GR   index    FR0013364395
+CACXB    CAC 40 XBEAR GR      index    QS0011095856
+PAX      CAC ALL SHARES       index    QS0010989141
+CACT     CAC ALL-TRADABLE     index    FR0003999499
+CACTR    CAC ALL-TRADE GR     index    QS0011131891
+CACTN    CAC ALL-TRADE NR     index    QS0011131883
+FRBMN    CAC BASIC MATER NR   index    QS0011223979
+FRBM     CAC BASIC MATER.     index    QS0011017637
+FRCG     CAC CONS DISCR       index    QS0011017686
+FRCGN    CAC CONS DISCR NR    index    QS0011223995
+FRCSN    CAC CONS STAPL NR    index    QS0011224290
+FROG     CAC ENERGY           index    QS0011017603
+FROGN    CAC ENERGY NR        index    QS0011223698
+CAEWC    CAC EWC 40           index    FR0012712081
+FRFIN    CAC FINANCIALS       index    QS0011017801
+FRFNN    CAC FINANCIALS NR    index    QS0011224373
+FRHC     CAC HEALTH CARE      index    QS0011017702
+FRHCN    CAC HLTH CARE NR     index    QS0011224498
+FRIN     CAC INDUSTRIALS      index    QS0011017652
+FRINN    CAC INDUSTRIALS NR   index    QS0011224571
+CACLG    CAC LARGE 60         index    QS0011213657
+CLEW     CAC LARGE 60 EW      index    FR0012663292
+CLEWE    CAC LARGE 60 EW ER   index    FR0012663334
+CLEWG    CAC LARGE 60 EW GR   index    FR0012663318
+CLEWN    CAC LARGE 60 EW NR   index    FR0012663300
+CAR      CAC LARGE 60 GR      index    QS0011213699
+CACLN    CAC LARGE 60 NR      index    QS0011213681
+CACTL    CAC LEVERAGE NR      index    QS0011179221
+CACMD    CAC MID 60           index    QS0010989117
+CACMR    CAC MID 60 GR        index    QS0011131917
+CACMN    CAC MID 60 NR        index    QS0011131909
+CACMS    CAC MID&SMALL        index    QS0010989133
+CMSG     CAC MID&SMALL GR     index    QS0011213756
+CMSN     CAC MID&SMALL NR     index    QS0011213731
+CN20     CAC NEXT 20          index    QS0010989109
+CACS     CAC SMALL            index    QS0010989125
+CACSR    CAC SMALL GR         index    QS0011213723
+CACSN    CAC SMALL NR         index    QS0011213707
+FRTEC    CAC TECHNOLOGY       index    QS0011017827
+FRTCN    CAC TECHNOLOGY NR    index    QS0011223896
+FRTEN    CAC TELECOM NR       index    QS0011223920
+FRTEL    CAC TELECOM.         index    QS0011017769
+FRUT     CAC UTILITIES        index    QS0011017785
+FRUTN    CAC UTILITIES NR     index    QS0011224084
+CACLV    CAC40 LEVERAGE       index    QS0011095815
+CAFO     CAFOM                equity   FR0010151589
+CBDG     CAMBODGE NOM.        equity   FR0000079659
+CAP      CAPGEMINI            equity   FR0000125338
+CARM     CARMILA              equity   FR0010828137
+CARP     CARPINIENNE PART.    equity   FR0000064156
+CA       CARREFOUR            equity   FR0000120172
+CO       CASINO GUICHARD      equity   FR0000125585
+CATG     CATANA GROUP         equity   FR0010193052
+CATR     CATERPILLAR INC      equity   US1491231015
+CBOT     CBO TERRITORIA       equity   FR0010193979
+CGM      CEGEDIM              equity   FR0000053506
+CYAD     CELYAD ONCOLOGY      equity   BE0974260896
+CFI      CFI                  equity   FR0000037475
+CGG      CGG                  equity   FR0013181864
+CRI      CHARGEURS            equity   FR0000130692
+CHSR     CHAUSSERIA           equity   FR0000060907
+CDI      CHRISTIAN DIOR       equity   FR0000130403
+CLA      CLARANOVA            equity   FR0013426004
+CLARI    CLARIANE             equity   FR0010386334
+CLEJP    CLEWN JPY            index    FR0013134855
+CLEWJ    CLEWN JPY HEDGED     index    FR0013134848
+CNV      CNOVA                equity   NL0010949392
+COFA     COFACE               equity   FR0010667147
+COH      COHERIS              equity   FR0004031763
+RE       COLAS                equity   FR0000121634
+ODET     COMPAGNIE ODET       equity   FR0000062234
+COTY     COTY                 equity   US2220702037
+COUR     COURTOIS             equity   FR0000065393
+COV      COVIVIO              equity   FR0000064578
+COVH     COVIVIO HOTELS       equity   FR0000060303
+CRAP     CRCAM ALP.PROV.CCI   equity   FR0000044323
+CRAV     CRCAM ATL.VEND.CCI   equity   FR0000185506
+CRBP2    CRCAM BRIE PIC2CCI   equity   FR0010483768
+CIV      CRCAM ILLE-VIL.CCI   equity   FR0000045213
+CRLA     CRCAM LANGUED CCI    equity   FR0010461053
+CRLO     CRCAM LOIRE HTE L.   equity   FR0000045239
+CMO      CRCAM MORBIHAN CCI   equity   FR0000045551
+CNDF     CRCAM NORD CCI       equity   FR0000185514
+CCN      CRCAM NORM.SEINE     equity   FR0000044364
+CAF      CRCAM PARIS ET IDF   equity   FR0000045528
+CRSU     CRCAM SUD R.A.CCI    equity   FR0000045346
+CRTO     CRCAM TOURAINE CCI   equity   FR0000045304
+ACA      CREDIT AGRICOLE      equity   FR0000045072
+CROS     CROSSWOOD            equity   FR0000050395
+BN       DANONE               equity   FR0000120644
+AM       DASSAULT AVIATION    equity   FR0014004L86
+DSY      DASSAULT SYSTEMES    equity   FR0014003TT8
+DBV      DBV TECHNOLOGIES     equity   FR0010417345
+DEEZR    DEEZER               equity   FR001400AYG6
+DEEZW    DEEZER WARRANTS      equity   FR0014004JF6
+DKUPL    DEKUPLE              equity   FR0000062978
+DBG      DERICHEBOURG         equity   FR0000053381
+DPAM     DOCK.PETR.AMBES AM   equity   FR0000065260
+EDEN     EDENRED              equity   FR0010908533
+FGR      EIFFAGE              equity   FR0000130452
+EKI      EKINOPS              equity   FR0011466069
+ELEC     ELEC.STRASBOURG      equity   FR0000031023
+EEM      ELECT. MADAGASCAR    equity   FR0000035719
+ELIOR    ELIOR GROUP          equity   FR0011950732
+ELIS     ELIS                 equity   FR0012435121
+ALASG    EN G ALL-SHARE GR    index    QS0011227186
+ALASN    EN G ALL-SHARE NR    index    QS0011227178
+NAOII    EN G BPIFR INNO      index    QS0011194212
+NAOIG    EN G BPIFR INNO GR   index    QS0011194238
+NAOIN    EN G BPIFR INNO NR   index    QS0011194220
+ALASI    EN GROWTH ALLSHARE   index    QS0011040902
+ENGI     ENGIE                equity   FR0010208488
+ENPME    ENT PEA-PME 150      index    FR0012246023
+EPMEG    ENT PEA-PME 150 GR   index    FR0012246049
+EQS      EQUASENS             equity   FR0012882389
+ERA      ERAMET               equity   FR0000131757
+ESI      ESI GROUP            equity   FR0004110310
+EL       ESSILORLUXOTTICA     equity   FR0000121667
+ES       ESSO                 equity   FR0000120669
+EFI      EURASIA FONC INV     equity   FR0000061475
+RF       EURAZEO              equity   FR0000121121
+EUR      EURO RESSOURCES      equity   FR0000054678
+EAPI     EUROAPI              equity   FR0014008VX5
+ERF      EUROFINS SCIENT.     equity   FR0014000MR3
+ENX      EURONEXT             equity   NL0006294274
+N100     EURONEXT 100         index    FR0003502079
+ETL      EUTELSAT COMMUNIC.   equity   FR0010221234
+EGR      EVERGREEN            equity   FR0000035784
+EXA      EXAIL TECHNOLOGIES   equity   FR0000062671
+EXN      EXCLUSIVE NETWORKS   equity   FR0014005DA7
+EXE      EXEL INDUSTRIES      equity   FR0004527638
+EXPL     EXPLOSIFS PROD.CHI   equity   FR0014003AQ4
+FAYE     FAYENC.SARREGUEMI.   equity   FR0000031973
+FDJ      FDJ                  equity   FR0013451333
+FCMC     FERM.CAS.MUN.CANNE   equity   FR0000062101
+FALG     FERMENTALG           equity   FR0011271600
+SACI     FIDUCIAL OFF.SOL.    equity   FR0000061418
+ORIA     FIDUCIAL REAL EST.   equity   FR0000060535
+FGA      FIGEAC AERO          equity   FR0011665280
+BERR     FIN.ETANG BERRE      equity   FR0000062341
+FOAF     FIN.OUEST AFRICAIN   equity   SN0000033192
+FINM     FINANCIERE MARJOS    equity   FR0000060824
+FNTS     FINATIS              equity   FR0000035123
+FIPP     FIPP                 equity   FR0000038184
+FNAC     FNAC DARTY           equity   FR0011476928
+LEBL     FONCIERE 7 INVEST    equity   FR0000065930
+EURS     FONCIERE EURIS       equity   FR0000038499
+INEA     FONCIERE INEA        equity   FR0010341032
+FLY      FONCIERE LYONNAISE   equity   FR0000033409
+SPEL     FONCIERE VOLTA       equity   FR0000053944
+FORE     FORESTIERE EQUAT.    equity   CI0000053161
+FORSE    FORSEE POWER         equity   FR0014005SB3
+FRVIA    FORVIA               equity   FR0000121147
+FDE      FRANCAISE ENERGIE    equity   FR0013030152
+FREY     FREY                 equity   FR0010588079
+GALIM    GALIMMO              equity   FR0000030611
+GAM      GAUMONT              equity   FR0000034894
+GEA      GEA GRENOBL.ELECT.   equity   FR0000053035
+GFC      GECINA               equity   FR0010040865
+GNE      GENERAL ELECTRIC     equity   US3696043013
+GNRO     GENEURO              equity   CH0308403085
+GNFT     GENFIT               equity   FR0004163111
+GV       GENOMIC VISION       equity   FR0011799907
+SIGHT    GENSIGHT BIOLOGICS   equity   FR0013183985
+GET      GETLINK SE           equity   FR0010533075
+GLO      GL EVENTS            equity   FR0000066672
+GPE      GPE GROUP PIZZORNO   equity   FR0010214064
+GRVO     GRAINES VOLTZ        equity   FR0000065971
+CEN      GROUPE CRIT          equity   FR0000036675
+GJAJ     GROUPE JAJ           equity   FR0004010338
+PARP     GROUPE PARTOUCHE     equity   FR0012612646
+SFPI     GROUPE SFPI          equity   FR0004155000
+GTBP     GT BIOPHARMA INC     equity   US36254L2097
+GTT      GTT                  equity   FR0011726835
+GBT      GUERBET              equity   FR0000032526
+GUI      GUILLEMOT            equity   FR0000066722
+PIG      HAULOTTE GROUP       equity   FR0000066755
+HDF      HDF                  equity   FR0014003VY4
+RMS      HERMES INTL          equity   FR0000052292
+HCO      HIGH CO              equity   FR0000054231
+HDP      HOTELS DE PARIS      equity   FR0004165801
+ICAD     ICADE                equity   FR0000035081
+IDL      ID LOGISTICS GROUP   equity   FR0010929125
+IDIP     IDI                  equity   FR0000051393
+NK       IMERYS               equity   FR0000120859
+IMDA     IMMOB.DASSAULT       equity   FR0000033243
+INFE     INDLE FIN.ENTREPR.   equity   FR0000066219
+INF      INFOTEL              equity   FR0000071797
+IPH      INNATE PHARMA        equity   FR0010331421
+ITP      INTERPARFUMS         equity   FR0004024222
+ITXT     INTEXA               equity   FR0000064958
+IVA      INVENTIVA            equity   FR0013233012
+IPN      IPSEN                equity   FR0010259150
+IPS      IPSOS                equity   FR0000073298
+ITE      ITESOFT              equity   FR0004026151
+JBOG     JACQUES BOGART       equity   FR0012872141
+JCQ      JACQUET METALS       equity   FR0000033904
+DEC      JCDECAUX             equity   FR0000077919
+KOF      KAUFMAN ET BROAD     equity   FR0004007813
+KER      KERING               equity   FR0000121485
+LI       KLEPIERRE            equity   FR0000121964
+OR       L'OREAL              equity   FR0000120321
+LACR     LACROIX GROUP        equity   FR0000066607
+MMB      LAGARDERE SA         equity   FR0000130213
+LAT      LATECOERE            equity   FR001400JY13
+LPE      LAURENT-PERRIER      equity   FR0006864484
+LOUP     LDC                  equity   FR0013204336
+LSS      LECTRA               equity   FR0000065484
+LR       LEGRAND              equity   FR0010307819
+LHYFE    LHYFE                equity   FR0014009YQ1
+LIN      LINEDATA SERVICES    equity   FR0004156297
+FII      LISI                 equity   FR0000050353
+LNA      LNA SANTE            equity   FR0004170017
+LBIRD    LUMIBIRD             equity   FR0000038242
+MC       LVMH                 equity   FR0000121014
+MRM      M.R.M                equity   FR00140085W6
+MAAT     MAAT PHARMA          equity   FR0012634822
+MDM      MAISONS DU MONDE     equity   FR0013153541
+MALT     MALTERIES FCO-BEL.   equity   FR0000030074
+MTU      MANITOU BF           equity   FR0000038606
+IAM      MAROC TELECOM        equity   MA0000011488
+MAU      MAUREL ET PROM       equity   FR0000051070
+MBWS     MBWS                 equity   FR0000060873
+MBWSZ    MBWS BSAR 2023       equity   FR0013066313
+MCPHY    MCPHY ENERGY         equity   FR0011742329
+EDI      MEDIA 6              equity   FR0000064404
+MEDCL    MEDINCELL            equity   FR0004065605
+MEMS     MEMSCAP REGPT        equity   FR0010298620
+MERY     MERCIALYS            equity   FR0010241638
+MRN      MERSEN               equity   FR0000039620
+METEX    METABOLIC EXPLORER   equity   FR0004177046
+MMT      METROPOLE TV         equity   FR0000053225
+ML       MICHELIN             equity   FR001400AJ45
+FMONC    MONCEY (FIN.) NOM.   equity   FR0000076986
+MONT     MONTEA               equity   BE0003853703
+MHM      MYHOTELMATCH         equity   FR001400IE67
+NACON    NACON                equity   FR0013482791
+NANO     NANOBIOTIX           equity   FR0011341205
+NEOEN    NEOEN                equity   FR0011675362
+NRO      NEURONES             equity   FR0004050250
+NEX      NEXANS               equity   FR0000044448
+NXI      NEXITY               equity   FR0010112524
+N150     NEXT 150             index    FR0003502087
+BIOTK    NEXT BIOTECH         index    QS0011095955
+NHOA     NHOA                 equity   FR0012650166
+NOKIA    NOKIA                equity   FI0009000681
+NR21     NR21                 equity   FR0014001PV6
+NRG      NRJ GROUP            equity   FR0000121691
+SBT      OENEO                equity   FR0000052680
+OLG      OL GROUPE            equity   FR0010428771
+ORA      ORANGE               equity   FR0000133308
+ORAP     ORAPI                equity   FR0000075392
+OREGE    OREGE                equity   FR0010609206
+ORP      ORPEA                equity   FR0000184798
+OSE      OSE IMMUNO           equity   FR0012127173
+OVH      OVH                  equity   FR0014005HJ9
+PAR      PAREF                equity   FR0010263202
+PARRO    PARROT               equity   FR0004038263
+PSAT     PASSAT               equity   FR0000038465
+PAT      PATRIMOINE ET COMM   equity   FR0011027135
+RI       PERNOD RICARD        equity   FR0000120693
+PERR     PERRIER (GERARD)     equity   FR0000061459
+PEUG     PEUGEOT INVEST       equity   FR0000064784
+PHXM     PHAXIAM Tx           equity   FR001400K4B1
+VACBS    PIERRE VAC BSA ACT   equity   FR001400B4H9
+VACBT    PIERRE VAC BSA CRE   equity   FR001400B4G1
+VAC      PIERRE VACANCES      equity   FR0000073041
+PVL      PLAST.VAL LOIRE      equity   FR0013252186
+POM      PLASTIC OMNIUM       equity   FR0000124570
+POXEL    POXEL                equity   FR0012432516
+PROAC    PROACTIS SA          equity   FR0004052561
+PWG      PRODWAYS             equity   FR0012613610
+PUB      PUBLICIS GROUPE SA   equity   FR0000130577
+QDT      QUADIENT             equity   FR0000120560
+RAL      RALLYE               equity   FR0000060618
+GDS      RAMSAY GEN SANTE     equity   FR0000044471
+REITE    REIT EUROPE          index    QS0011070230
+REITG    REIT EUROPE GR       index    QS0011176854
+REITN    REIT EUROPE NR       index    QS0011176847
+RCO      REMY COINTREAU       equity   FR0000130395
+RNO      RENAULT              equity   FR0000131906
+RXL      REXEL                equity   FR0010451203
+RBT      ROBERTET             equity   FR0000039091
+CBR      ROBERTET CDV 87      equity   FR0000045619
+CBE      ROBERTET CI          equity   FR0000045601
+RBO      ROCHE BOBOIS         equity   FR0013344173
+RUI      RUBIS                equity   FR0013269123
+SK       S.E.B.               equity   FR0000121709
+SAF      SAFRAN               equity   FR0000073272
+SGO      SAINT GOBAIN         equity   FR0000125007
+SAMS     SAMSE                equity   FR0000060071
+SAN      SANOFI               equity   FR0000120578
+DIM      SARTORIUS STED BIO   equity   FR0013154002
+SAVE     SAVENCIA             equity   FR0000120107
+PX4      SBF 120              index    FR0003999481
+PX4GR    SBF 120 GR           index    QS0011131859
+SBF8D    SBF T80 EW DEC 50P   index    FR0013017969
+SBF80    SBF TOP 80 EW        index    FR0013017936
+SBF8G    SBF TOP 80 EW GR     index    FR0013017951
+SBF8N    SBF TOP 80 EW NR     index    FR0013017944
+CBSM     SCBSM                equity   FR0006239109
+SLB      SCHLUMBERGER         equity   AN8068571086
+SU       SCHNEIDER ELECTRIC   equity   FR0000121972
+SCR      SCOR SE              equity   FR0010411983
+SCHP     SECHE ENVIRONNEM.    equity   FR0000039109
+SGRO     SEGRO PLC            equity   GB00B5ZN1N88
+SLCO     SELCODIS             equity   FR0000065492
+SELER    SELECTIRENTE         equity   FR0004175842
+SEFER    SERGEFERRARI GROUP   equity   FR0011950682
+SESG     SES                  equity   LU0088087324
+SESL     SES IMAGOTAG         equity   FR0010282822
+SRP      SHOWROOMPRIVE        equity   FR0013006558
+SII      SII                  equity   FR0000074122
+SMCP     SMCP                 equity   FR0013214145
+SFCA     SOC FRANC CASINOS    equity   FR0010209809
+GLE      SOCIETE GENERALE     equity   FR0000130809
+SW       SODEXO               equity   FR0000121220
+SEC      SODITECH             equity   FR0000078321
+SOI      SOITEC               equity   FR0013227113
+LOCAL    SOLOCAL GROUP        equity   FR00140006O9
+S30      SOLUTIONS 30 SE      equity   FR0013379484
+SOLB     SOLVAY               equity   BE0003470755
+SOP      SOPRA STERIA GROUP   equity   FR0000050809
+SPIE     SPIE                 equity   FR0012757854
+SQI      SQLI                 equity   FR0011289040
+DPT      ST DUPONT            equity   FR0000054199
+STF      STEF                 equity   FR0000064271
+STLAP    STELLANTIS NV        equity   NL00150001Q9
+STMPA    STMICROELECTRONICS   equity   NL0000226223
+SWP      SWORD GROUP          equity   FR0004180578
+SYENS    SYENSQO              equity   BE0974464977
+SDG      SYNERGIE             equity   FR0000032658
+TKTT     TARKETT              equity   FR0004188670
+TAYN     TAYNINH              equity   FR0000063307
+TCHCS    TECHNICOLOR CS       equity   FR001400I939
+TE       TECHNIP ENERGIES     equity   NL0014559478
+TEP      TELEPERFORMANCE      equity   FR0000051807
+TVRB     TELEVERBIER          equity   CH0008175645
+TRACT    TERACT               equity   FR001400BMH7
+TERBS    TERACT BS            equity   FR0014000TB2
+TFI      TF1                  equity   FR0000054900
+TFF      TFF GROUP            equity   FR0013295789
+HO       THALES               equity   FR0000121329
+THEP     THERMADOR GROUPE     equity   FR0013333432
+TKO      TIKEHAU CAPITAL      equity   FR0013230612
+TIPI     TIPIAK               equity   FR0000066482
+TITC     TITAN CEMENT         equity   BE0974338700
+TTE      TOTALENERGIES        equity   FR0000120271
+TOUP     TOUAX                equity   FR0000033003
+EIFF     TOUR EIFFEL          equity   FR0000036816
+TNG      TRANSGENE            equity   FR0005175080
+TRI      TRIGANO              equity   FR0005691656
+EC       TotalEnergiesGabon   equity   GA0000121459
+UBI      UBISOFT ENTERTAIN    equity   FR0000054470
+URW      UNIBAIL-RODAMCO-WE   equity   FR0013326246
+UNBL     UNIBEL               equity   FR0000054215
+FPG      UNION TECH.INFOR.    equity   FR0000074197
+FR       VALEO                equity   FR0013176526
+VK       VALLOUREC            equity   FR0013506730
+VLA      VALNEVA              equity   FR0004056851
+VANTI    VANTIVA              equity   FR0013505062
+VANBS    VANTIVA BSA 2024     equity   FR0013526225
+VIE      VEOLIA ENVIRON.      equity   FR0000124141
+VRLA     VERALLIA             equity   FR0013447729
+VMX      VERIMATRIX           equity   FR0010291245
+VETO     VETOQUINOL           equity   FR0004186856
+VCT      VICAT                equity   FR0000031775
+VIL      VIEL ET COMPAGNIE    equity   FR0000050049
+DG       VINCI                equity   FR0000125486
+VIRP     VIRBAC               equity   FR0000031577
+VTR      VITURA               equity   FR0010309096
+VIV      VIVENDI SE           equity   FR0000127771
+VLTSA    VOLTALIA             equity   FR0011995588
+VRAP     VRANKEN-POMMERY      equity   FR0000062796
+WAGA     WAGA ENERGY          equity   FR0012532810
+WAVE     WAVESTONE            equity   FR0013357621
+MF       WENDEL               equity   FR0000121204
+WLN      WORLDLINE            equity   FR0011981968
+XFAB     X-FAB                equity   BE0974310428
+XIL      XILAM ANIMATION      equity   FR0004034072
+CV       ZCI LIMITED          equity   BMG9887P1068
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+╴╴╴
+dataset:
+  metadatas:
+    generated_with: 'cfwf@0.5.0 - https://github.com/badele/cfwf'
+    sources:
+      - 'https://www.euronext.com'
+  title: Euronext Paris
+tables:
+  - tablename: XPAR
