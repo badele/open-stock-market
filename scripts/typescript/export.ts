@@ -19,21 +19,22 @@ exchanges.convert();
 
 Deno.readTextFile("README.md").then((text) => {
   Deno.readTextFile("database/exchanges.cfwf").then((exchanges) => {
-    const txtexchanges = exchanges.replace(/╴╴╴[\s\S]+/m, "");
+    const elines = exchanges.split("\n");
+    const ystart = elines.findIndex((line) => line.startsWith("╴╴╴"));
 
-    const lines = text.split("\n");
-    const rstart = lines.findIndex((line) =>
+    const rlines = text.split("\n");
+    const rstart = rlines.findIndex((line) =>
       line.startsWith("<!-- BEGIN exchanges")
     );
-    const rend = lines.findIndex((line) =>
+    const rend = rlines.findIndex((line) =>
       line.startsWith("<!-- END exchanges")
     );
     const newLines = [
-      ...lines.slice(0, rstart + 1),
-      "```text",
-      txtexchanges,
-      "```",
-      ...lines.slice(rend),
+      ...rlines.slice(0, rstart + 1),
+      "\n```text",
+      ...elines.slice(0, ystart),
+      "```\n",
+      ...rlines.slice(rend),
     ];
 
     const content = newLines.join("\n");

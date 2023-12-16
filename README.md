@@ -17,6 +17,7 @@ The following table provides an overview of major global stock marketplaces:
 The exchanges list
 
 <!-- BEGIN exchanges -->
+
 ```text
                       
                        _____              _                                        _  _       _
@@ -35,20 +36,21 @@ exchanges
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 MARKET   name                      nb_indices   nb_equities
 ──────   ───────────────────────   ──────────   ───────────
-XNAS     NASDAQ                    197          6504
-XNYS     NEW YORK STOCK EXCHANGE   821          1052
-XPAR     EURONEXT PARIS            101          388
-XSHG     SHANGHAI STOCK EXCHANGE   398          0
-XOSL     OSLO BORS                 75           216
-XAMS     EURONEXT AMSTERDAM        139          143
-XSHE     SHENZHEN STOCK EXCHANGE   198          0
-XBRU     EURONEXT BRUSSELS         43           129
-XLIS     EURONEXT LISBON           31           38
-XDUB     IRISH STOCK EXCHANGE      10           0
+XNAS     NASDAQ                           197          6504
+XNYS     NEW YORK STOCK EXCHANGE          821          1052
+XPAR     EURONEXT PARIS                   101           388
+XSHG     SHANGHAI STOCK EXCHANGE          398             0
+XOSL     OSLO BORS                         75           216
+XAMS     EURONEXT AMSTERDAM               139           143
+XSHE     SHENZHEN STOCK EXCHANGE          198             0
+XBRU     EURONEXT BRUSSELS                 43           129
+XLIS     EURONEXT LISBON                   31            38
+XDUB     IRISH STOCK EXCHANGE              10             0
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-
 ```
+
+<!-- END exchanges -->
 
 ## Symbols
 
