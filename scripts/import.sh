@@ -6,7 +6,7 @@ DATAS="commons exchanges"
 # Init
 ###############################################################################
 echo "Init database"
-duckdb duckdb < scripts/sql/_init.sql
+rm -f duckdb && duckdb duckdb < scripts/sql/_init.sql
 
 ###############################################################################
 # Import
@@ -20,8 +20,14 @@ for data in $DATAS; do
 done
 
 ###############################################################################
-# Import
+# Update
 ###############################################################################
 echo "Update tables"
 duckdb duckdb < scripts/sql/_update.sql
+
+###############################################################################
+# Check
+###############################################################################
+echo "Check datas"
+duckdb duckdb < scripts/sql/_check.sql
 

@@ -3,12 +3,14 @@
 MAXLINES=200
 IMPORT="./database/.import"
 
+source ./scripts/shell/tools.sh
+
 function download_index() {
   page=$1
   SRCNASDAQ="$IMPORT/src_nasdaq_indices_${page}.json"
   DSTNASDAQ="$IMPORT/nasdaq_indices_${page}.csv"
 
-  if [ ! -f "$SRCNASDAQ" ]; then
+  if is_not_cached "$SRCNASDAQ"; then
     echo "Downloading nasdaq indices page($page)"
 
    curl -s -o "$SRCNASDAQ" \
@@ -24,7 +26,3 @@ function download_index() {
 for page in $(seq 0 50 $MAXLINES); do
   download_index "$page"
 done
-
-# echo "Importing nasdaq indices"
-# duckdb duckdb < scripts/sql/exchanges/nasdaq/indices.sql
-

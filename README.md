@@ -19,7 +19,6 @@ The exchanges list
 <!-- BEGIN exchanges -->
 
 ```text
-                      
                        _____              _                                        _  _       _
                       |  ___|            | |                                      | |(_)     | |
                       | |__  __  __  ___ | |__    __ _  _ __    __ _   ___  ___   | | _  ___ | |_
@@ -33,21 +32,42 @@ A summary of the main global stock marketplaces.
 
 exchanges
 
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-MARKET   name                      nb_indices   nb_equities
-──────   ───────────────────────   ──────────   ───────────
-XNAS     NASDAQ                           197          6504
-XNYS     NEW YORK STOCK EXCHANGE          821          1052
-XPAR     EURONEXT PARIS                   101           388
-XSHG     SHANGHAI STOCK EXCHANGE          398             0
-XOSL     OSLO BORS                         75           216
-XAMS     EURONEXT AMSTERDAM               139           143
-XSHE     SHENZHEN STOCK EXCHANGE          198             0
-XBRU     EURONEXT BRUSSELS                 43           129
-XLIS     EURONEXT LISBON                   31            38
-XDUB     IRISH STOCK EXCHANGE              10             0
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+EXCHANGE   MARKET   name                                   nb_indices   nb_equities
+────────   ──────   ────────────────────────────────────   ──────────   ───────────
+NYSE       XNYS     NEW YORK STOCK EXCHANGE                821          1052
+EURONEXT   XPAR     EURONEXT PARIS                         101          381
+EURONEXT   XOSL     OSLO BORS                              75           213
+EURONEXT   XAMS     EURONEXT AMSTERDAM                     139          147
+EURONEXT   XBRU     EURONEXT BRUSSELS                      43           120
+EURONEXT   XLIS     EURONEXT LISBON                        31           39
+EURONEXT   XDUB     IRISH STOCK EXCHANGE                   10           23
+EURONEXT   ALXP     EURONEXT GROWTH PARIS                               290
+EURONEXT   ETLX     EUROTLX                                             438
+EURONEXT   BGEM     BORSA ITALIANA GLOBAL EQUITY MARKET                 379
+EURONEXT   MTAH     BORSA ITALIANA - TRADING AFTER HOURS                588
+EURONEXT   EXGM     EURONEXT GROWTH MILAN                               266
+EURONEXT   XOAS     EURONEXT EXPAND OSLO                                16
+EURONEXT   XMIL     BORSA ITALIANA S.P.A.                               235
+EURONEXT   MERK     EURONEXT GROWTH - OSLO                              108
+EURONEXT   XMLI     EURONEXT ACCESS PARIS                               167
+EURONEXT   ENXL     EURONEXT ACCESS LISBON                              13
+EURONEXT   XESM     EURONEXT GROWTH DUBLIN                              15
+EURONEXT   MLXB     EURONEXT ACCESS BRUSSELS                            8
+EURONEXT   VPXB     VENTES PUBLIQUES BRUSSELS                           6
+EURONEXT   ALXB     EURONEXT GROWTH BRUSSELS                            4
+NASDAQ     XNAS     NASDAQ                                              6427
+SSE        XSHG     SHANGHAI STOCK EXCHANGE                409
+SZSE       XSHE     SHENZHEN STOCK EXCHANGE                198
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
+╴╴╴
+dataset:
+  metadatas:
+    generated_with: 'cfwf@0.5.0 - https://github.com/badele/cfwf'
+  title: Exchanges list
+tables:
+  - tablename: exchanges
 ```
 
 <!-- END exchanges -->

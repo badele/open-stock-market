@@ -1,7 +1,7 @@
 .mode ascii
 
--- Show all duplicate indices
-SELECT INDEX,MARKET,count(*) from indices group by INDEX,MARKET having count(*) > 1;
+-- Show duplicated symbols
+select exchange,symbol,type,count() from symbols group by exchange,type,symbol having count()>1;
 
--- Show all empty names
-SELECT * from indices where name=='';
+-- Show multi markets not define to main market
+SELECT * FROM euronext_equities WHERE multi_markets AND contains(market,',');

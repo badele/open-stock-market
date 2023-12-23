@@ -6,5 +6,5 @@
 /node_modules
 
 duckdb
-datas/.import
-datas/.export
+database/.import
+database/.export

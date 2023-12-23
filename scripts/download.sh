@@ -5,7 +5,7 @@ mkdir -p ./database/.import ./database/.export/{indices,equities}
 ###############################################################################
 # Commons
 ###############################################################################
-COMMONS="markets lei"
+COMMONS="markets lei sectors_icb"
 for common in $COMMONS; do
   "./scripts/shell/download/${common}.sh"
 done

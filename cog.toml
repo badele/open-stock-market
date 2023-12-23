@@ -16,7 +16,7 @@ post_bump_hooks = [
 
 [changelog]
 path = "CHANGELOG.md"
-template = "remote"
+ late = "remote"
 remote = "github.com"
 owner = "badele"
 repository = "nix-projects"

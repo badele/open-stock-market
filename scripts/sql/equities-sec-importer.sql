@@ -1,0 +1,15 @@
+-- DROP TABLE IF EXISTS "equities.sec";
+-- CREATE TABLE "equities.sec" AS SELECT
+-- *
+-- FROM read_csv('./database/.import/equities-sec.csv'
+--     ,header=true
+--     ,auto_detect=true
+--     ,ignore_errors=true
+-- )
+-- ;
+--
+-- COPY (
+--     SELECT 
+--     *
+--     FROM "equities.sec"
+-- ) TO './database/.export/equities-sec.csv' (HEADER, DELIMITER ',');

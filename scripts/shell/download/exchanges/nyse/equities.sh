@@ -4,12 +4,14 @@ MAXPAGE=5
 MAXRESULTSPERPAGE=500
 IMPORT="./database/.import"
 
+source ./scripts/shell/tools.sh
+
 function download_index() {
   page=$1
   SRCNYSE="$IMPORT/src_nyse_equities_${page}.json"
   DSTNYSE="$IMPORT/nyse_equities_${page}.csv"
 
-  if [ ! -f "$SRCNYSE" ]; then
+  if is_not_cached "$SRCNYSE"; then
     echo "Downloading nyse equities page($page)"
 
    curl -s -o "$SRCNYSE" \
@@ -26,6 +28,3 @@ function download_index() {
 for page in $(seq $MAXPAGE); do
   download_index "$page"
 done
-
-# echo "Importing nyse equities"
-# duckdb duckdb < scripts/sql/exchanges/nyse/equities.sql

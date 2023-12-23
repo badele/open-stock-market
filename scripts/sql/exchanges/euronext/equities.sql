@@ -4,31 +4,56 @@
 DROP TABLE IF EXISTS euronext_equities;
 CREATE TABLE euronext_equities AS SELECT
 *
-FROM read_csv('./database/.import/euronext_equities_*.csv'
+FROM read_csv('./database/.import/euronext_equities.csv'
     ,header=true
     ,auto_detect=true
     ,ignore_errors=true
-    ,filename=True
 )
-;
+WHERE symbol <> '-';
 
+ALTER TABLE euronext_equities ADD COLUMN multi_markets BOOLEAN;
 -------------------------------------------------------------------------------
 -- Cleaning table
 -------------------------------------------------------------------------------
--- Get market name from filename
-ALTER TABLE euronext_equities RENAME market TO markets;
-UPDATE euronext_equities SET filename = replace(filename, '.csv', '');
-UPDATE euronext_equities SET filename = regexp_replace(filename, '.*_', '');
-ALTER TABLE euronext_equities RENAME filename TO market;
+-- some market
+UPDATE euronext_equities SET market  = regexp_replace(market,'EuroTLX','ETLX');
+UPDATE euronext_equities SET market  = regexp_replace(market,'Euronext Expert Market','VPXB');
+UPDATE euronext_equities SET market  = regexp_replace(market,'Euronext Global Equity Market','BGEM');
+UPDATE euronext_equities SET market  = regexp_replace(market,'Oslo Børs','XOSL');
+UPDATE euronext_equities SET market  = regexp_replace(market,'Trading After Hours','MTAH');
 
--- get equities markets relation
-DROP TABLE IF EXISTS euronext_equities_market_relation;
-CREATE TABLE euronext_equities_market_relation AS 
-SELECT symbol,market FROM euronext_equities;
+-- Euronext Growth
+UPDATE euronext_equities SET market  = regexp_replace(market,' ?Brussels','ALXB') WHERE market like 'Euronext Growth%';
+UPDATE euronext_equities SET market  = regexp_replace(market,' ?Dublin','XESM') WHERE market like 'Euronext Growth%';
+UPDATE euronext_equities SET market  = regexp_replace(market,' ?Lisbon','ALXL') WHERE market like 'Euronext Growth%';
+UPDATE euronext_equities SET market  = regexp_replace(market,' ?Milan','EXGM') WHERE market like 'Euronext Growth%';
+UPDATE euronext_equities SET market  = regexp_replace(market,' ?Oslo','MERK') WHERE market like 'Euronext Growth%';
+UPDATE euronext_equities SET market  = regexp_replace(market,' ?Paris','ALXP') WHERE market like 'Euronext Growth%';
+UPDATE euronext_equities SET market  = regexp_replace(market,'Euronext Growth','') WHERE market like 'Euronext Growth%';
 
--- -- Insert equities
-CREATE TEMPORARY TABLE tmp_euronext_market AS SELECT DISTINCT market FROM euronext_equities;
-DELETE FROM symbols WHERE type='equity' AND market IN (select market from tmp_euronext_market);
-INSERT INTO symbols
-SELECT symbol, market, name, 'equity', isin FROM "euronext_equities";
-DROP TABLE IF EXISTS tmp_euronext_market;
+-- Euronext Access
+UPDATE euronext_equities SET market  = regexp_replace(market,' ?Brussels','MLXB') WHERE market like 'Euronext Access%';
+UPDATE euronext_equities SET market  = regexp_replace(market,' ?Lisbon','ENXL') WHERE market like 'Euronext Access%';
+UPDATE euronext_equities SET market  = regexp_replace(market,' ?Milan','XMOT') WHERE market like 'Euronext Access%';
+UPDATE euronext_equities SET market  = regexp_replace(market,' ?Paris','XMLI') WHERE market like 'Euronext Access%';
+UPDATE euronext_equities SET market  = regexp_replace(market,'Euronext Access','') WHERE market like 'Euronext Access%';
+
+-- -- XOAS
+UPDATE euronext_equities SET market  = regexp_replace(market,'Euronext Expand Oslo','XOAS') WHERE market like 'Euronext Expand%';
+UPDATE euronext_equities SET market  = regexp_replace(market,'Euronext Expand','') WHERE market like 'Euronext Expand%';
+
+-- Euronext
+UPDATE euronext_equities SET market  = regexp_replace(market,' ?Amsterdam','XAMS') WHERE market like 'Euronext%';
+UPDATE euronext_equities SET market  = regexp_replace(market,' ?Brussels','XBRU') WHERE market like 'Euronext%';
+UPDATE euronext_equities SET market  = regexp_replace(market,' ?Dublin','XDUB') WHERE market like 'Euronext%';
+UPDATE euronext_equities SET market  = regexp_replace(market,' ?Lisbon','XLIS') WHERE market like 'Euronext%';
+UPDATE euronext_equities SET market  = regexp_replace(market,' ?Milan','XMIL') WHERE market like 'Euronext%';
+UPDATE euronext_equities SET market  = regexp_replace(market,' ?Oslo','XOSL') WHERE market like 'Euronext%';
+UPDATE euronext_equities SET market  = regexp_replace(market,' ?Paris','XPAR') WHERE market like 'Euronext%';
+UPDATE euronext_equities SET market  = regexp_replace(market,'Euronext','') WHERE market like 'Euronext%';
+
+UPDATE euronext_equities SET multi_markets = contains(market,',');
+UPDATE euronext_equities SET market = 'XAMS' WHERE multi_markets AND substring(isin,1,2)='NL';
+UPDATE euronext_equities SET market = 'XAMS' WHERE multi_markets AND substring(isin,1,2)='LU';
+UPDATE euronext_equities SET market = 'XBRU' WHERE multi_markets AND substring(isin,1,2)='BE';
+UPDATE euronext_equities SET market = 'XPAR' WHERE multi_markets AND substring(isin,1,2)='FR';

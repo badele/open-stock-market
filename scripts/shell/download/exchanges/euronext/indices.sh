@@ -8,12 +8,14 @@ MARKET="XAMS XBRU XDUB XLIS XOSL XPAR"
 # # Euronext Access 
 # MARKET="$MARKET MLXB  ENXL XMLI"
 
+source ./scripts/shell/tools.sh
+
 function download_index() {
   market=$1
   SRCEURONEXT="$IMPORT/src_euronext_indices_${market}.csv"
   DSTEURONEXT="$IMPORT/euronext_indices_${market}.csv"
 
-  if [ ! -f "$SRCEURONEXT" ]; then
+  if is_not_cached "$SRCEURONEXT"; then
     echo "Downloading euronext $market indices"
     curl -s -o "$SRCEURONEXT" -X POST \
     "https://live.euronext.com/pd/data/index/download?mics=${market}&display_datapoints=dp_index&display_filters=df_index2" \
@@ -28,6 +30,3 @@ function download_index() {
 for market in $MARKET; do
   download_index "$market"
 done
-
-# echo "Importing euronext indices"
-# duckdb duckdb < scripts/sql/exchanges/euronext/indices.sql
