@@ -4,31 +4,29 @@
 -- Indices
 DELETE FROM symbols where type='index' and exchange='EURONEXT';
 INSERT INTO symbols
-SELECT hash(concat_ws('-','EURONEXT',market,'index',symbol)) ,'EURONEXT', market, 'index', NULL, symbol, name, NULL, NULL, NULL, NULL, isin FROM euronext_indices;
+SELECT hash(concat_ws('-','EURONEXT',market,'index',symbol)) ,'EURONEXT', market, 'index', NULL, symbol, name, NULL, NULL, NULL,NULL, NULL, NULL,isin FROM euronext_indices;
 
 -- Equities
 DELETE FROM symbols where type='equity' and exchange='EURONEXT';
 INSERT INTO symbols
-SELECT hash(concat_ws('-','EURONEXT',market,'equity',symbol)) ,'EURONEXT', market, 'equity', NULL, symbol, name, NULL, NULL, NULL, NULL, isin FROM euronext_equities;
+SELECT hash(concat_ws('-','EURONEXT',market,'equity',symbol)) ,'EURONEXT', market, 'equity', NULL, symbol, name, NULL, NULL, NULL, NULL,NULL, NULL,isin FROM euronext_equities;
 
 -------------------------------------------------------------------------------
 -- NYSE
 -------------------------------------------------------------------------------
-
 -- Indices
 DELETE FROM symbols where type='index' and exchange='NYSE';
 INSERT INTO symbols
-SELECT hash(concat_ws('-','NYSE',market,'index',symbol)) ,'NYSE', market, 'index', NULL, symbol, name, NULL, NULL, NULL, NULL, NULL FROM nyse_indices;
+SELECT hash(concat_ws('-','NYSE',market,'index',symbol)) ,'NYSE', market, 'index', NULL, symbol, name, NULL, NULL,NULL, NULL, NULL, NULL,NULL FROM nyse_indices;
 
 -- Equities
 DELETE FROM symbols where type='equity' and exchange='NYSE';
 INSERT INTO symbols
-SELECT hash(concat_ws('-','NYSE',market,'equity',symbol)) ,'NYSE', market, 'equity', NULL, symbol, name, NULL, NULL, NULL, NULL, NULL FROM nyse_equities;
+SELECT hash(concat_ws('-','NYSE',market,'equity',symbol)) ,'NYSE', market, 'equity', NULL, symbol, name, NULL, NULL,NULL,NULL, NULL, NULL,NULL FROM nyse_equities;
 
 -------------------------------------------------------------------------------
 -- Nasdaq
 -------------------------------------------------------------------------------
-
 -- Alter some columns and datas
 ALTER TABLE nasdaq_equities
 ADD COLUMN IF NOT EXISTS market VARCHAR;
@@ -39,26 +37,26 @@ UPDATE nasdaq_equities SET market = 'XNAS' WHERE market IS NULL;
 -- Indices
 DELETE FROM symbols where type='index' and exchange='NASDAQ';
 INSERT INTO symbols 
-SELECT hash(concat_ws('-','NASDAQ','XNAS','index',symbol)) ,'NASDAQ', 'XNAS', 'index', NULL, symbol, name, NULL, NULL, NULL, NULL, NULL FROM nasdaq_indices;
+SELECT hash(concat_ws('-','NASDAQ','XNAS','index',symbol)) ,'NASDAQ', 'XNAS', 'index', NULL, symbol, name, NULL, NULL,NULL,NULL, NULL, NULL,NULL FROM nasdaq_indices;
 
 -- Equities
 DELETE FROM symbols where type='index' and exchange='NASDAQ';
 INSERT INTO symbols
-SELECT hash(concat_ws('-','NASDAQ',market,'equity',symbol)) ,'NASDAQ', market, 'equity', NULL, symbol, name,NULL, NULL, NULL, NULL, '' FROM nasdaq_equities WHERE market='XNAS';
+SELECT hash(concat_ws('-','NASDAQ',market,'equity',symbol)) ,'NASDAQ', market, 'equity', NULL, symbol, name,NULL, NULL,NULL,NULL, NULL, NULL,NULL FROM nasdaq_equities WHERE market='XNAS';
 
 -------------------------------------------------------------------------------
 -- SSE
 -------------------------------------------------------------------------------
 DELETE FROM symbols where type='index' and exchange='SSE';
 INSERT INTO symbols 
-SELECT hash(concat_ws('-','SSE','XSHG','equity',symbol)) ,'SSE', 'XSHG', 'index', NULL, symbol, name, NULL, NULL, NULL, NULL, NULL FROM "sse_indices";
+SELECT hash(concat_ws('-','SSE','XSHG','equity',symbol)) ,'SSE', 'XSHG', 'index', NULL, symbol, name, NULL, NULL,NULL,NULL, NULL, NULL,NULL FROM "sse_indices";
 
 -------------------------------------------------------------------------------
 -- SZSE
 -------------------------------------------------------------------------------
 DELETE FROM symbols where type='index' and exchange='SZSE';
 INSERT INTO symbols 
-SELECT hash(concat_ws('-','SZSE','XSHE','equity',code)) ,'SZSE', 'XSHE', 'index', NULL, code, name, NULL, NULL, NULL, NULL, NULL FROM "szse_indices";
+SELECT hash(concat_ws('-','SZSE','XSHE','equity',code)) ,'SZSE', 'XSHE', 'index', NULL, code, name, NULL,NULL,NULL,NULL, NULL, NULL,NULL FROM "szse_indices";
 
 -------------------------------------------------------------------------------
 -- Exchanges
@@ -96,48 +94,186 @@ UPDATE euronext_equities_history SET time = substr(time,1,10);
 UPDATE euronext_equities_history h SET symbol = (SELECT symbol FROM symbols WHERE exchange='EURONEXT' AND market=h.market AND isin=h.isin);
 UPDATE euronext_equities_history SET symbolid = hash(concat_ws('-','EURONEXT',market,'equity',symbol));
 
-INSERT INTO symbols_history (symbolid,date,previous,close,volume) 
-SELECT symbolid, time,lag(price) OVER (PARTITION BY symbolid ORDER BY time) as previous,price,volume FROM euronext_equities_history
--- SELECT symbolid, time,price,volume FROM euronext_equities_history h ORDER BY time
-ON CONFLICT DO NOTHING;
+INSERT INTO symbols_history (symbolid,date,prevprice,price,prevvolume,volume) 
+SELECT 
+  symbolid,
+  time,
+  lag(price) OVER (PARTITION BY symbolid ORDER BY time) as prevprice,
+  price,
+  lag(volume) OVER (PARTITION BY symbolid ORDER BY time) as prevvolume,
+  volume
+FROM 
+  euronext_equities_history
+ORDER BY 
+  symbolid,time
+ON CONFLICT (symbolid,date)
+DO UPDATE SET
+  prevprice=EXCLUDED.prevprice,
+  price=EXCLUDED.price,
+  prevvolume=EXCLUDED.prevvolume,
+  volume=EXCLUDED.volume;
 
 
 -- indices
--- UPDATE symbols set lastupdate = (SELECT strptime("last date/time", '%d/%m/%Y %H:%M') FROM euronext_indices WHERE symbol=symbols.symbol AND "last date/time" <> '-') where exchange='EURONEXT' AND type='index';
+-- UPDATE symbols set lastdate = (SELECT strptime("last date/time", '%d/%m/%Y %H:%M') FROM euronext_indices WHERE symbol=symbols.symbol AND "last date/time" <> '-') where exchange='EURONEXT' AND type='index';
 -- UPDATE symbols set open = (SELECT "open" FROM euronext_indices WHERE symbol=symbols.symbol AND open IS NOT NULL) where exchange='EURONEXT' and type='index';
 -- UPDATE symbols set close = (SELECT "last" FROM euronext_indices WHERE symbol=symbols.symbol AND last IS NOT NULL) where exchange='EURONEXT' and type='index';
 -- equities sector
 UPDATE symbols SET industry = (SELECT industry FROM euronext_industry_relation WHERE symbol=symbols.symbol) where exchange='EURONEXT' and type='equity';
 
--- Last price
-CREATE TEMP TABLE last_price AS
-SELECT symbolid,last(date) as date,last(h.previous) as previous,last(h.close) as close, last(h.volume) as volume FROM symbols_history h INNER JOIN symbols s USING (symbolid) group by symbolid;
-
+-- nb histo
 UPDATE symbols s
-SET previous=l.previous,close=l.close,lastupdate=l.date
+SET 
+  nbhisto=(
+    SELECT 
+      count() as nbhisto 
+    FROM 
+      symbols_history 
+    WHERE 
+      symbolid=s.symbolid 
+    GROUP BY symbolid
+  );
+
+-------------------------------------------------------------------------------
+-- begin price
+-------------------------------------------------------------------------------
+WITH begin_price AS (
+  SELECT 
+      symbolid,
+      first(date) as date,
+      first(price) as firstprice,
+    FROM 
+      symbols_history
+    GROUP BY symbolid
+)
+UPDATE symbols s
+SET 
+  firstdate=l.date,
+  firstprice=l.firstprice
+FROM 
+  begin_price l
+WHERE 
+  s.symbolid=l.symbolid;
+
+
+-------------------------------------------------------------------------------
+-- Last price
+-------------------------------------------------------------------------------
+WITH last_price AS (
+  SELECT 
+    symbolid,
+    last(date) as date,
+    last(price) as lastprice,
+  FROM 
+    symbols_history
+  GROUP BY symbolid
+)
+UPDATE symbols s
+SET 
+  lastdate=l.date,
+  lastprice=l.lastprice,
 FROM last_price l
 WHERE s.symbolid=l.symbolid;
 
-DROP TABLE last_price;
+-- price performance
+UPDATE 
+  symbols 
+SET 
+  perf=round((lastprice-firstprice)/firstprice*100,2) 
+WHERE lastprice IS NOT NULL AND firstprice IS NOT NULL;
 
-UPDATE symbols set delta = round((close-previous)/previous*100,2);
 
+-- Summary
+INSERT OR IGNORE INTO symbols_summary BY NAME
+SELECT symbolid,'7d' as name,max(date)-INTERVAL 7 DAY as value FROM symbols_history GROUP BY symbolid;
 -------------------------------------------------------------------------------
 -- Create view
 -------------------------------------------------------------------------------
-CREATE OR REPLACE VIEW "v_symbols" AS 
-SELECT DISTINCT s.SYMBOLID, s.EXCHANGE, s.MARKET,s.SYMBOL,s.TYPE,i.INDUSTRY,name,previous,close,delta,lastupdate,ISIN FROM symbols s LEFT JOIN sectors_icb i ON s.industry = i."industry code";
+CREATE OR REPLACE VIEW "v_symbols" AS
+  SELECT DISTINCT
+    s.SYMBOLID, s.EXCHANGE, s.MARKET,s.SYMBOL,s.TYPE,i.INDUSTRY,name,firstdate,lastdate,nbhisto,firstprice,lastprice,ISIN
+  FROM 
+    symbols s LEFT JOIN sectors_icb i ON s.industry = i."industry code"
+  ORDER BY exchange,market,symbol;
 
-CREATE OR REPLACE VIEW "v_symbols_history" AS 
-SELECT symbolid,exchange, market, symbol,h.date,h.previous,h.close,round((h.close-h.previous)/h.close*100,2) AS delta FROM symbols_history h INNER JOIN symbols s USING (symbolid) ORDER BY exchange,market,symbol,date;
+CREATE OR REPLACE VIEW "v_sectors" AS
+  SELECT 
+    exchange,market, industry, count() 
+  from 
+    v_symbols 
+  GROUP by exchange,market,industry 
+  ORDER by exchange,market,count();
 
-CREATE OR REPLACE VIEW "v_sectors_summary" AS
-SELECT exchange,market, industry, count() from v_symbols GROUP by exchange,market,industry ORDER by exchange,market,count();
 
-CREATE OR REPLACE VIEW "v_euronext_helper_index_composition_history" AS
-SELECT market,index,isin, 'https://live.euronext.com/intraday_chart/getChartData/' || ISIN || '-' || MARKET || '/max' as url from v_symbols s inner join euronext_index_compositions c using(isin) ;
+-- CREATE OR REPLACE VIEW "v_symbols_history" AS
+-- SELECT 
+--   symbolid,
+--   exchange, 
+--   market, 
+--   symbol,
+--   h.date,
+--   h.prevprice,
+--   h.price,
+--   round((h.price-h.prevprice)/h.price*100,2) AS perf,
+--   h.prevvolume,
+--   h.volume,
+--   round((h.volume-h.prevvolume)/h.volume*100,2) AS perfvolume
+-- FROM 
+--   symbols_history h 
+--   INNER JOIN symbols s USING (symbolid) 
+-- ORDER BY 
+--   exchange,market,symbol,date;
+
+-------------------------------------------------------------------------------
+-- List only symbol with industry field
+-------------------------------------------------------------------------------
+CREATE OR REPLACE VIEW "v_symbols_with_industry" AS
+  SELECT DISTINCT * FROM v_symbols WHERE industry IS NOT NULL AND firstdate is not null;
+
+CREATE OR REPLACE VIEW "v_symbols_history" AS
+  SELECT 
+    DISTINCT ON (h.symbolid,h.date)
+    s.symbolid,
+    exchange, 
+    market, 
+    symbol,
+    name,
+    industry,
+    date,
+    price
+  FROM 
+    symbols_history h
+    INNER JOIN v_symbols s ON s.symbolid=h.symbolid
+
+-- CREATE OR REPLACE VIEW "v_industry_history" AS
+--   SELECT
+--     s.exchange,
+--     s.market,
+--     s.symbol,
+--     h.date,
+--     industry,
+--     sum(h.price) as price,
+--     avg(h.perf) as perf
+--   FROM v_symbols s
+--     INNER JOIN v_symbols_history h ON s.symbolid=h.symbolid
+--   WHERE lastdate is not NULL
+--   GROUP BY ALL;
+--
+
+-- CREATE OR REPLACE VIEW "v_sectors_summary" AS
+-- SELECT exchange,market, industry, count() from v_symbols GROUP by exchange,market,industry ORDER by exchange,market,count();
+
+-- CREATE OR REPLACE VIEW "v_euronext_helper_index_composition_history" AS
+-- SELECT market,index,isin, 'https://live.euronext.com/intraday_chart/getChartData/' || ISIN || '-' || MARKET || '/max' as url from v_symbols s inner join euronext_index_compositions c using(isin) ;
+--
+-- CREATE OR REPLACE VIEW "v_euronext_helper_url_history" AS
+-- SELECT market,industry, isin, 'https://live.euronext.com/intraday_chart/getChartData/' || ISIN || '-' || MARKET || '/max' as url from v_symbols;
+
 
 CREATE OR REPLACE VIEW "v_exchanges_marker_list" AS SELECT DISTINCT market FROM exchanges;
+
+CREATE OR REPLACE MACRO f_equities_by_sector(sector) AS TABLE select * from v_symbols where exchange='EURONEXT' AND market='XPAR' AND industry=sector AND lastdate is not null;
+
 
 -------------------------------------------------------------------------------
 -- Drop tables

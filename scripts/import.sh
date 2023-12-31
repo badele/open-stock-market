@@ -1,6 +1,5 @@
 #!/usr/bin/env bash
 
-DATAS="commons exchanges"
 
 ###############################################################################
 # Init
@@ -8,9 +7,17 @@ DATAS="commons exchanges"
 echo "Init database"
 rm -f duckdb && duckdb duckdb < scripts/sql/_init.sql
 
+DATAS="init functions"
+for file in $DATAS; do
+  FILE="scripts/sql/_${file}.sql"
+  echo "Execture $FILE"
+  duckdb duckdb < "$FILE"
+done
+
 ###############################################################################
 # Import
 ###############################################################################
+DATAS="commons exchanges"
 for data in $DATAS; do
   FILES=$(find "scripts/sql/${data}" -maxdepth 1 -name "*.sql")
   for file in $FILES; do

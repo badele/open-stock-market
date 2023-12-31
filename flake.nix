@@ -29,6 +29,9 @@
 
               pup
               jq
+              gnuplot
+
+              imagemagick
             ];
             shellHook = ''
               export PROJ="stock-market"
