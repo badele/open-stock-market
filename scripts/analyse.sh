@@ -2,6 +2,9 @@
 
 MINYEAR=5;
 
+# Generate industry list
+duckdb duckdb -csv -noheader "select distinct replace(industry,' ','_') from sectors_icb" > "database/.export/duckdb_industrylist.txt"
+
 # Generate report for all industries
 duckdb duckdb "CREATE OR REPLACE TABLE tocompute as SELECT 'ALLINDUSTRY' AS id,date,avg(indice100) AS value FROM f_table_indice100_symbols_history(5000) GROUP BY ALL ORDER BY id,date"
 duckdb duckdb -csv -noheader -nullvalue "?" "select * from tocompute" > "database/.export/duckdb_ALLINDUSTRY.txt"

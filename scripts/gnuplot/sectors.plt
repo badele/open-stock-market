@@ -1,11 +1,19 @@
 set datafile separator ','
 
+industrylist='database/.export/duckdb_industrylist.txt'
 allindustry='database/.export/duckdb_ALLINDUSTRY.txt'
 prices='database/.export/duckdb_' . vfile . '.txt'
 sma365='database/.export/duckdb_' . vfile . '_sma365.txt'
 sma90='database/.export/duckdb_' . vfile . '_sma90.txt'
 macd='database/.export/duckdb_' . vfile . '_macd90.txt'
 
+getindustry(x) = system('sed -n '.x.'p '.industrylist)
+
+nbindustry = system('wc -l ' . industrylist )
+array INDUSTRY[nbindustry]
+do for [i=1:nbindustry] {
+  INDUSTRY[i] = getindustry(i)
+}
 # mindate=system("head -n 1 " . prices . " | awk '{print $2}'")
 
 # Define plot size and output file
@@ -46,22 +54,24 @@ set rmargin 2
 # Price graph
 ###############################################################################
 
-set multiplot
-set size 1, 0.7
-set origin 0, 0.3
-set bmargin 0
+# set multiplot
+# set size 1, 0.7
+# set origin 0, 0.3
+# set bmargin 0
 # set format x ""
 
 
 plot \
-allindustry using 2:3 with lines ls 1 lc rgb '#f0ffffff' title "All industry", \
-prices using 2:3 with lines ls 1 title "Price", \
-sma90 using 2:4 with lines ls 15 title "SMA 90", \
-sma365 using 2:4 with lines ls 11 title "SMA 365"
+  allindustry using 2:3 with lines ls 1 lc rgb '#A05694F2' title "All industry", \
+    prices using 2:3 with lines ls 1 title "Price", \
+    sma90 using 2:4 with lines ls 15 title "SMA 90", \
+    sma365 using 2:4 with lines ls 11 title "SMA 365", \
+    macd using 2:($4>0 ? $3 : 1/0) with filledcurves y2=0 lc rgb '#ee77BE69' notitle, \
+    macd using 2:($4<0 ? $3 : 1/0) with filledcurves y2=0 lc rgb '#eeF24865' notitle, \
+  for [i=1:nbindustry] 'database/.export/duckdb_'.getindustry(i).'.txt'  using 2:3 with lines ls 1 lc rgb '#f0ffffff' notitle
+
 # macd using 2:($4>0 ? $3 : 1/0) with filledcurves y1=0 lc rgb '#ee77BE69' notitle, \
 # macd using 2:($4<0 ? $3 : 1/0) with filledcurves y1=0 lc rgb '#eeF24865' notitle, \
-# macd using 2:($4>0 ? $3 : 1/0) with filledcurves y2=GPVAL_Y_MAX lc rgb '#ee77BE69' notitle, \
-# macd using 2:($4<0 ? $3 : 1/0) with filledcurves y2=GPVAL_Y_MAX lc rgb '#eeF24865' notitle
 
 # Force yrange to be the same for all graphs
 # set yrange[GPVAL_Y_MIN:GPVAL_Y_MAX]
@@ -73,18 +83,18 @@ sma365 using 2:4 with lines ls 11 title "SMA 365"
 # macd using 2:($4>0 ? $3 : 1/0) with filledcurves y2=GPVAL_Y_MAX lc rgb '#ee77BE69' notitle, \
 # macd using 2:($4<0 ? $3 : 1/0) with filledcurves y2=GPVAL_Y_MAX lc rgb '#eeF24865' notitle
 
-set size 1.0, 0.3
-set origin 0.0, 0.0
+# set size 1.0, 0.3
+# set origin 0.0, 0.0
 
 ###############################################################################
 # MACD graph
 ###############################################################################
-unset title
-set bmargin
-set tmargin 0
-set xlabel 'Year' textcolor rgb ctext font ',15'
-set ylabel 'MACD' textcolor rgb ctext font ',15'
-set format x "%Y"
+# unset title
+# set bmargin
+# set tmargin 0
+# set xlabel 'Year' textcolor rgb ctext font ',15'
+# set ylabel 'MACD' textcolor rgb ctext font ',15'
+# set format x "%Y"
 
 # unset yrange
 
@@ -97,5 +107,5 @@ set format x "%Y"
 # macd using 2:($4>0 ? $4 : 1/0) with filledcurves y2=GPVAL_Y_MAX lc rgb '#ee77BE69' notitle, \
 # macd using 2:($4<0 ? $4 : 1/0) with filledcurves y2=GPVAL_Y_MAX lc rgb '#eeF24865' notitle
 
-unset multiplot
+# unset multiplot
 
