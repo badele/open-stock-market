@@ -12,6 +12,7 @@
         devShells.default = with pkgs;
           mkShell {
             name = "Default developpement shell";
+            # LD_LIBRARY_PATH = "${lib.makeLibraryPath [ duckdb ]}";
             packages = [
               cocogitto
               nixpkgs-fmt

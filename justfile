@@ -8,7 +8,7 @@ BROWSER := "chromium"
 
 # Install requirements
 @install-requirements:
-  npm install nodejs-polars
+  npm install
 
 @delete-downloaded:
   rm -f ./data/.import/*

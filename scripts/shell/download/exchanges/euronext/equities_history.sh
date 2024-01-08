@@ -2,7 +2,7 @@
 
 IMPORT="./database/.import"
 
-SYMBOLS="XPAR:Telecommunications"
+INDICES="XPAR:PX1 XPAR:PX4 XPAR:CACT"
 
 source ./scripts/shell/tools.sh
 
@@ -22,15 +22,15 @@ function download_equities_history() {
   jq -r "[\"market\", \"time\", \"price\",\"volume\"], (.[] | [ \"${market}\", .time, .price, .volume ]) | @csv" < "$SRCEURONEXT" > "$DSTEURONEXT"
 }
 
-function download_industry_composition() {
+function download_index_composition() {
   market=$(echo "$1" | cut -d':' -f1)
-  industry=$(echo "$1" | cut -d':' -f2)
-  URLS=$(duckdb duckdb  "SELECT isin, market, url FROM v_euronext_helper_url_history WHERE market='${market}' AND industry='${industry}'" -csv -noheader)
+  index=$(echo "$1" | cut -d':' -f2)
+  URLS=$(duckdb duckdb  "select isin, market, url from v_euronext_helper_url_history INNER JOIN euronext_index_compositions USING(ISIN) where market='${market}' AND index='${index}' ORDER BY random()" -csv -noheader)
   for URL in $URLS; do
     download_equities_history "$URL"
   done
 }
 
-for symbol in $SYMBOLS; do
-  download_industry_composition "$symbol"
+for symbol in $INDICES; do
+  download_index_composition "$symbol"
 done

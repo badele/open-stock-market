@@ -15,6 +15,41 @@
 -- GROUP BY ALL;
 
 -------------------------------------------------------------------------------
+-- Get symbols history has industry and add indice100 column
+-- datestart is the start date
+-- dateend is the end date
+-------------------------------------------------------------------------------
+CREATE OR REPLACE MACRO f_symbols_price_and_indice(datestart,dateend) AS TABLE
+WITH
+  alldates AS (
+    SELECT
+      unnest(generate_series(datestart::date, dateend::date, interval '1 days')) AS DATE
+  ),
+  baseindiceprice AS (
+  SELECT 
+    symbolid,
+    date,
+    price as baseindiceprice
+  FROM
+    symbols_history
+  WHERE
+    date = datestart
+  ),
+  symbols_has_industry AS (
+    select * FROM v_symbols WHERE industry IS NOT NULL AND lastdate IS NOT NULL
+  )
+  SELECT 
+    s.*,
+    h.*,
+    h.price/f.baseindiceprice*100 as indice100
+  FROM alldates a
+  LEFT JOIN symbols_history h USING (DATE)
+  LEFT JOIN baseindiceprice f ON h.symbolid = f.symbolid
+  LEFT JOIN v_symbols s ON f.symbolid = s.symbolid 
+  WHERE f.symbolid in (SELECT symbolid FROM symbols_has_industry)
+  ORDER BY symbol,DATE
+;
+-------------------------------------------------------------------------------
 -- indice100 perf
 -- period is the number of days to compute the indicator
 -------------------------------------------------------------------------------

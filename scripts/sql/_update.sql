@@ -266,8 +266,8 @@ CREATE OR REPLACE VIEW "v_symbols_history" AS
 -- CREATE OR REPLACE VIEW "v_euronext_helper_index_composition_history" AS
 -- SELECT market,index,isin, 'https://live.euronext.com/intraday_chart/getChartData/' || ISIN || '-' || MARKET || '/max' as url from v_symbols s inner join euronext_index_compositions c using(isin) ;
 --
--- CREATE OR REPLACE VIEW "v_euronext_helper_url_history" AS
--- SELECT market,industry, isin, 'https://live.euronext.com/intraday_chart/getChartData/' || ISIN || '-' || MARKET || '/max' as url from v_symbols;
+CREATE OR REPLACE VIEW "v_euronext_helper_url_history" AS
+SELECT market,industry, isin, 'https://live.euronext.com/intraday_chart/getChartData/' || ISIN || '-' || MARKET || '/max' as url from v_symbols;
 
 
 CREATE OR REPLACE VIEW "v_exchanges_marker_list" AS SELECT DISTINCT market FROM exchanges;
